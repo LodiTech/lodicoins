@@ -1,0 +1,8 @@
+.woocommerce div.product .fl-module-fl-woo-cart-button form.cart,
+.woocommerce div.product .fl-module-fl-woo-cart-button form.cart .variations {
+	margin-left: 0;
+	margin-right: 0;
+}
+.fl-module-fl-woo-cart-button .yith-ywraq-add-to-quote {
+	padding-top: 15px;
+}

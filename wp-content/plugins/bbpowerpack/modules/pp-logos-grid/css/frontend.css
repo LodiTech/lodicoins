@@ -1,0 +1,62 @@
+/**
+ * This file should contain frontend styles that
+ * will be applied to all module instances.
+ */
+
+.pp-logo-grid-input.input-small {
+	width: 46px !important;
+}
+
+.pp-logos-content .logo-slider-prev,
+.pp-logos-content .logo-slider-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -6px;
+}
+
+.pp-logos-content .logo-slider-next {
+    right: -6px;
+    left: auto;
+}
+
+.pp-logos-content .logo-slider-nav a {
+    text-decoration: none;
+    box-shadow: none;
+    border: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	height: 30px;
+	width: 30px;
+}
+.pp-logos-content .logo-slider-nav a svg {
+	height: 20px;
+}
+
+.pp-logos-content .pp-logo { 
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.pp-logos-content .sr-only {
+	position: absolute !important;
+    height: 1px !important;
+    width: 1px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px,1px,1px,1px);
+    clip-path: polygon(0px 0px, 0px 0px, 0px 0px);
+    -webkit-clip-path: polygon(0px 0px, 0px 0px, 0px 0px);
+    overflow: hidden !important;
+	border: 0 !important;
+	box-shadow: none !important;
+}
+
+.pp-logos-content .bx-wrapper {
+	margin-bottom: 0;
+}
+.pp-logos-carousel:not(.pp-logos-wrapper-loaded) {
+	opacity: 0;
+}
