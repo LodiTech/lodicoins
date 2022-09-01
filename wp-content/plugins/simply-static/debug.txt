@@ -1,603 +1,331 @@
-[2022-08-31 18:28:21] [class-ss-plugin.php:268] Received request to start generating a static archive
-[2022-08-31 18:28:21] [class-ss-archive-creation-job.php:61] Starting a job; no job is presently running
-[2022-08-31 18:28:21] [class-ss-archive-creation-job.php:62] Here's our task list: setup, fetch_urls, create_zip_archive, wrapup
-[2022-08-31 18:28:21] [class-ss-archive-creation-job.php:76] Pushing first task to queue: setup
-[2022-08-31 18:28:23] [class-ss-archive-creation-job.php:105] Current task: setup
-[2022-08-31 18:28:23] [class-ss-archive-creation-job.php:121] Performing task: setup
-[2022-08-31 18:28:23] [class-ss-task.php:44] Status message: [setup] Setting up
-[2022-08-31 18:28:23] [class-ss-setup-task.php:32] Creating archive directory: C:\xampp\htdocs\lodicoins\wp-content\plugins\simply-static/static-files/simply-static-1-1661970501\
-[2022-08-31 18:28:23] [class-ss-setup-task.php:77] Adding origin URL to queue: https://localhost/lodicoins/
-[2022-08-31 18:28:23] [class-ss-archive-creation-job.php:140] We've found our next task: fetch_urls
-[2022-08-31 18:28:23] [class-ss-archive-creation-job.php:105] Current task: fetch_urls
-[2022-08-31 18:28:23] [class-ss-archive-creation-job.php:121] Performing task: fetch_urls
-[2022-08-31 18:28:23] [class-ss-fetch-urls-task.php:54] Total pages: 1; Pages remaining: 1
-[2022-08-31 18:28:23] [class-ss-fetch-urls-task.php:57] URL: https://localhost/lodicoins/
-[2022-08-31 18:28:23] [class-ss-fetch-urls-task.php:67] URL is not being excluded
-[2022-08-31 18:28:23] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\Users\user\AppData\Local\Temp/630fa847cf0d2-M0DSwZ.tmp
-[2022-08-31 18:28:26] [class-ss-url-fetcher.php:94] Filesize: 76772 bytes
-[2022-08-31 18:28:26] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: text/html; charset=UTF-8
-[2022-08-31 18:28:26] [class-ss-url-fetcher.php:192] New filename for static page: /index.html
-[2022-08-31 18:28:26] [class-ss-url-fetcher.php:132] Renaming temp file from C:\Users\user\AppData\Local\Temp/630fa847cf0d2-M0DSwZ.tmp to C:\xampp\htdocs\lodicoins\wp-content\plugins\simply-static/static-files/simply-static-1-1661970501/index.html
-[2022-08-31 18:28:26] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
-[2022-08-31 18:28:26] [class-ss-fetch-urls-task.php:133] Adding 55 URLs to the queue
-[2022-08-31 18:28:27] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
-[2022-08-31 18:28:27] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 0 of 1 pages/files
-[2022-08-31 18:28:27] [class-ss-archive-creation-job.php:145] We're not done with the fetch_urls task yet
-[2022-08-31 18:28:27] [class-ss-archive-creation-job.php:105] Current task: fetch_urls
-[2022-08-31 18:28:27] [class-ss-archive-creation-job.php:121] Performing task: fetch_urls
-[2022-08-31 18:28:27] [class-ss-fetch-urls-task.php:54] Total pages: 55; Pages remaining: 54
-[2022-08-31 18:28:27] [class-ss-fetch-urls-task.php:57] URL: https://localhost/lodicoins
-[2022-08-31 18:28:27] [class-ss-fetch-urls-task.php:67] URL is not being excluded
-[2022-08-31 18:28:27] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\Users\user\AppData\Local\Temp/630fa84b2005e-6OHzW8.tmp
-[2022-08-31 18:28:27] [class-ss-url-fetcher.php:94] Filesize: 336 bytes
-[2022-08-31 18:28:27] [class-ss-url-fetcher.php:109] http_status_code: 301 | content_type: text/html; charset=iso-8859-1
-[2022-08-31 18:28:27] [class-ss-url-fetcher.php:135] We weren't able to establish a filename; deleting temp file
-[2022-08-31 18:28:27] [class-ss-fetch-urls-task.php:176] redirect_url: https://localhost/lodicoins/
-[2022-08-31 18:28:27] [class-ss-fetch-urls-task.php:185] This is a redirect to a trailing slashed version of the same page; adding new URL to the queue
-[2022-08-31 18:28:27] [class-ss-fetch-urls-task.php:57] URL: https://localhost/lodicoins/wp-content/uploads/2022/08/lodicoins_logo.png
-[2022-08-31 18:28:27] [class-ss-fetch-urls-task.php:67] URL is not being excluded
-[2022-08-31 18:28:27] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\Users\user\AppData\Local\Temp/630fa84b2dd95-BL8THn.tmp
-[2022-08-31 18:28:27] [class-ss-url-fetcher.php:94] Filesize: 26236 bytes
-[2022-08-31 18:28:27] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: image/png
-[2022-08-31 18:28:27] [class-ss-url-fetcher.php:192] New filename for static page: /wp-content/uploads/2022/08/lodicoins_logo.png
-[2022-08-31 18:28:27] [class-ss-url-fetcher.php:132] Renaming temp file from C:\Users\user\AppData\Local\Temp/630fa84b2dd95-BL8THn.tmp to C:\xampp\htdocs\lodicoins\wp-content\plugins\simply-static/static-files/simply-static-1-1661970501/wp-content/uploads/2022/08/lodicoins_logo.png
-[2022-08-31 18:28:27] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
-[2022-08-31 18:28:27] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
-[2022-08-31 18:28:27] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
-[2022-08-31 18:28:27] [class-ss-fetch-urls-task.php:57] URL: https://localhost/lodicoins/wp-content/uploads/2022/08/lodi_coin.png
-[2022-08-31 18:28:27] [class-ss-fetch-urls-task.php:67] URL is not being excluded
-[2022-08-31 18:28:27] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\Users\user\AppData\Local\Temp/630fa84b36112-Z2hMXP.tmp
-[2022-08-31 18:28:27] [class-ss-url-fetcher.php:94] Filesize: 13387614 bytes
-[2022-08-31 18:28:27] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: image/png
-[2022-08-31 18:28:27] [class-ss-url-fetcher.php:192] New filename for static page: /wp-content/uploads/2022/08/lodi_coin.png
-[2022-08-31 18:28:27] [class-ss-url-fetcher.php:132] Renaming temp file from C:\Users\user\AppData\Local\Temp/630fa84b36112-Z2hMXP.tmp to C:\xampp\htdocs\lodicoins\wp-content\plugins\simply-static/static-files/simply-static-1-1661970501/wp-content/uploads/2022/08/lodi_coin.png
-[2022-08-31 18:28:27] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
-[2022-08-31 18:28:27] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
-[2022-08-31 18:28:27] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
-[2022-08-31 18:28:27] [class-ss-fetch-urls-task.php:57] URL: https://localhost/lodicoins/wp-content/uploads/2022/08/LOGO_mannypacq.png
-[2022-08-31 18:28:27] [class-ss-fetch-urls-task.php:67] URL is not being excluded
-[2022-08-31 18:28:27] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\Users\user\AppData\Local\Temp/630fa84b6cb2d-nLS2em.tmp
-[2022-08-31 18:28:27] [class-ss-url-fetcher.php:94] Filesize: 92312 bytes
-[2022-08-31 18:28:27] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: image/png
-[2022-08-31 18:28:27] [class-ss-url-fetcher.php:192] New filename for static page: /wp-content/uploads/2022/08/LOGO_mannypacq.png
-[2022-08-31 18:28:27] [class-ss-url-fetcher.php:132] Renaming temp file from C:\Users\user\AppData\Local\Temp/630fa84b6cb2d-nLS2em.tmp to C:\xampp\htdocs\lodicoins\wp-content\plugins\simply-static/static-files/simply-static-1-1661970501/wp-content/uploads/2022/08/LOGO_mannypacq.png
-[2022-08-31 18:28:27] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
-[2022-08-31 18:28:27] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
-[2022-08-31 18:28:27] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
-[2022-08-31 18:28:27] [class-ss-fetch-urls-task.php:57] URL: https://localhost/lodicoins/wp-content/uploads/2022/08/LOGO_TLAwhite.png
-[2022-08-31 18:28:27] [class-ss-fetch-urls-task.php:67] URL is not being excluded
-[2022-08-31 18:28:27] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\Users\user\AppData\Local\Temp/630fa84b777d1-HgvMRR.tmp
-[2022-08-31 18:28:27] [class-ss-url-fetcher.php:94] Filesize: 66297 bytes
-[2022-08-31 18:28:27] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: image/png
-[2022-08-31 18:28:27] [class-ss-url-fetcher.php:192] New filename for static page: /wp-content/uploads/2022/08/LOGO_TLAwhite.png
-[2022-08-31 18:28:27] [class-ss-url-fetcher.php:132] Renaming temp file from C:\Users\user\AppData\Local\Temp/630fa84b777d1-HgvMRR.tmp to C:\xampp\htdocs\lodicoins\wp-content\plugins\simply-static/static-files/simply-static-1-1661970501/wp-content/uploads/2022/08/LOGO_TLAwhite.png
-[2022-08-31 18:28:27] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
-[2022-08-31 18:28:27] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
-[2022-08-31 18:28:27] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
-[2022-08-31 18:28:27] [class-ss-fetch-urls-task.php:57] URL: https://localhost/lodicoins/wp-content/uploads/2022/08/blockchain_logo-white-1.png
-[2022-08-31 18:28:27] [class-ss-fetch-urls-task.php:67] URL is not being excluded
-[2022-08-31 18:28:27] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\Users\user\AppData\Local\Temp/630fa84b82e8b-3aWNJu.tmp
-[2022-08-31 18:28:27] [class-ss-url-fetcher.php:94] Filesize: 63551 bytes
-[2022-08-31 18:28:27] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: image/png
-[2022-08-31 18:28:27] [class-ss-url-fetcher.php:192] New filename for static page: /wp-content/uploads/2022/08/blockchain_logo-white-1.png
-[2022-08-31 18:28:27] [class-ss-url-fetcher.php:132] Renaming temp file from C:\Users\user\AppData\Local\Temp/630fa84b82e8b-3aWNJu.tmp to C:\xampp\htdocs\lodicoins\wp-content\plugins\simply-static/static-files/simply-static-1-1661970501/wp-content/uploads/2022/08/blockchain_logo-white-1.png
-[2022-08-31 18:28:27] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
-[2022-08-31 18:28:27] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
-[2022-08-31 18:28:27] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
-[2022-08-31 18:28:27] [class-ss-fetch-urls-task.php:57] URL: https://localhost/lodicoins/wp-content/uploads/2022/08/jason.png
-[2022-08-31 18:28:27] [class-ss-fetch-urls-task.php:67] URL is not being excluded
-[2022-08-31 18:28:27] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\Users\user\AppData\Local\Temp/630fa84b8f146-7Bft0s.tmp
-[2022-08-31 18:28:27] [class-ss-url-fetcher.php:94] Filesize: 129060 bytes
-[2022-08-31 18:28:27] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: image/png
-[2022-08-31 18:28:27] [class-ss-url-fetcher.php:192] New filename for static page: /wp-content/uploads/2022/08/jason.png
-[2022-08-31 18:28:27] [class-ss-url-fetcher.php:132] Renaming temp file from C:\Users\user\AppData\Local\Temp/630fa84b8f146-7Bft0s.tmp to C:\xampp\htdocs\lodicoins\wp-content\plugins\simply-static/static-files/simply-static-1-1661970501/wp-content/uploads/2022/08/jason.png
-[2022-08-31 18:28:27] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
-[2022-08-31 18:28:27] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
-[2022-08-31 18:28:27] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
-[2022-08-31 18:28:27] [class-ss-fetch-urls-task.php:57] URL: https://localhost/lodicoins/wp-content/uploads/2022/08/in_logo.png
-[2022-08-31 18:28:27] [class-ss-fetch-urls-task.php:67] URL is not being excluded
-[2022-08-31 18:28:27] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\Users\user\AppData\Local\Temp/630fa84b9a07b-M9plrO.tmp
-[2022-08-31 18:28:27] [class-ss-url-fetcher.php:94] Filesize: 20395 bytes
-[2022-08-31 18:28:27] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: image/png
-[2022-08-31 18:28:27] [class-ss-url-fetcher.php:192] New filename for static page: /wp-content/uploads/2022/08/in_logo.png
-[2022-08-31 18:28:27] [class-ss-url-fetcher.php:132] Renaming temp file from C:\Users\user\AppData\Local\Temp/630fa84b9a07b-M9plrO.tmp to C:\xampp\htdocs\lodicoins\wp-content\plugins\simply-static/static-files/simply-static-1-1661970501/wp-content/uploads/2022/08/in_logo.png
-[2022-08-31 18:28:27] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
-[2022-08-31 18:28:27] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
-[2022-08-31 18:28:27] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
-[2022-08-31 18:28:27] [class-ss-fetch-urls-task.php:57] URL: https://localhost/lodicoins/wp-content/uploads/2022/08/choi.png
-[2022-08-31 18:28:27] [class-ss-fetch-urls-task.php:67] URL is not being excluded
-[2022-08-31 18:28:27] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\Users\user\AppData\Local\Temp/630fa84ba750d-QUW4zt.tmp
-[2022-08-31 18:28:27] [class-ss-url-fetcher.php:94] Filesize: 117042 bytes
-[2022-08-31 18:28:27] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: image/png
-[2022-08-31 18:28:27] [class-ss-url-fetcher.php:192] New filename for static page: /wp-content/uploads/2022/08/choi.png
-[2022-08-31 18:28:27] [class-ss-url-fetcher.php:132] Renaming temp file from C:\Users\user\AppData\Local\Temp/630fa84ba750d-QUW4zt.tmp to C:\xampp\htdocs\lodicoins\wp-content\plugins\simply-static/static-files/simply-static-1-1661970501/wp-content/uploads/2022/08/choi.png
-[2022-08-31 18:28:27] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
-[2022-08-31 18:28:27] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
-[2022-08-31 18:28:27] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
-[2022-08-31 18:28:27] [class-ss-fetch-urls-task.php:57] URL: https://localhost/lodicoins/wp-content/uploads/2022/08/JoshuaDenne.png
-[2022-08-31 18:28:27] [class-ss-fetch-urls-task.php:67] URL is not being excluded
-[2022-08-31 18:28:27] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\Users\user\AppData\Local\Temp/630fa84baffcc-6wfgrc.tmp
-[2022-08-31 18:28:27] [class-ss-url-fetcher.php:94] Filesize: 121737 bytes
-[2022-08-31 18:28:27] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: image/png
-[2022-08-31 18:28:27] [class-ss-url-fetcher.php:192] New filename for static page: /wp-content/uploads/2022/08/JoshuaDenne.png
-[2022-08-31 18:28:27] [class-ss-url-fetcher.php:132] Renaming temp file from C:\Users\user\AppData\Local\Temp/630fa84baffcc-6wfgrc.tmp to C:\xampp\htdocs\lodicoins\wp-content\plugins\simply-static/static-files/simply-static-1-1661970501/wp-content/uploads/2022/08/JoshuaDenne.png
-[2022-08-31 18:28:27] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
-[2022-08-31 18:28:27] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
-[2022-08-31 18:28:27] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
-[2022-08-31 18:28:27] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 1 of 55 pages/files
-[2022-08-31 18:28:27] [class-ss-archive-creation-job.php:145] We're not done with the fetch_urls task yet
-[2022-08-31 18:28:27] [class-ss-archive-creation-job.php:105] Current task: fetch_urls
-[2022-08-31 18:28:27] [class-ss-archive-creation-job.php:121] Performing task: fetch_urls
-[2022-08-31 18:28:27] [class-ss-fetch-urls-task.php:54] Total pages: 55; Pages remaining: 44
-[2022-08-31 18:28:27] [class-ss-fetch-urls-task.php:57] URL: https://localhost/lodicoins/wp-content/uploads/2022/08/dallas.png
-[2022-08-31 18:28:27] [class-ss-fetch-urls-task.php:67] URL is not being excluded
-[2022-08-31 18:28:27] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\Users\user\AppData\Local\Temp/630fa84bba444-CzdDJI.tmp
-[2022-08-31 18:28:27] [class-ss-url-fetcher.php:94] Filesize: 125101 bytes
-[2022-08-31 18:28:27] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: image/png
-[2022-08-31 18:28:27] [class-ss-url-fetcher.php:192] New filename for static page: /wp-content/uploads/2022/08/dallas.png
-[2022-08-31 18:28:27] [class-ss-url-fetcher.php:132] Renaming temp file from C:\Users\user\AppData\Local\Temp/630fa84bba444-CzdDJI.tmp to C:\xampp\htdocs\lodicoins\wp-content\plugins\simply-static/static-files/simply-static-1-1661970501/wp-content/uploads/2022/08/dallas.png
-[2022-08-31 18:28:27] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
-[2022-08-31 18:28:27] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
-[2022-08-31 18:28:27] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
-[2022-08-31 18:28:27] [class-ss-fetch-urls-task.php:57] URL: https://localhost/lodicoins/wp-content/uploads/2022/08/ced.png
-[2022-08-31 18:28:27] [class-ss-fetch-urls-task.php:67] URL is not being excluded
-[2022-08-31 18:28:27] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\Users\user\AppData\Local\Temp/630fa84bc39f9-OwgLc8.tmp
-[2022-08-31 18:28:27] [class-ss-url-fetcher.php:94] Filesize: 123042 bytes
-[2022-08-31 18:28:27] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: image/png
-[2022-08-31 18:28:27] [class-ss-url-fetcher.php:192] New filename for static page: /wp-content/uploads/2022/08/ced.png
-[2022-08-31 18:28:27] [class-ss-url-fetcher.php:132] Renaming temp file from C:\Users\user\AppData\Local\Temp/630fa84bc39f9-OwgLc8.tmp to C:\xampp\htdocs\lodicoins\wp-content\plugins\simply-static/static-files/simply-static-1-1661970501/wp-content/uploads/2022/08/ced.png
-[2022-08-31 18:28:27] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
-[2022-08-31 18:28:27] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
-[2022-08-31 18:28:27] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
-[2022-08-31 18:28:27] [class-ss-fetch-urls-task.php:57] URL: https://localhost/lodicoins/wp-content/uploads/2022/08/joana.png
-[2022-08-31 18:28:27] [class-ss-fetch-urls-task.php:67] URL is not being excluded
-[2022-08-31 18:28:27] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\Users\user\AppData\Local\Temp/630fa84bcbfa8-VbOihm.tmp
-[2022-08-31 18:28:27] [class-ss-url-fetcher.php:94] Filesize: 113323 bytes
-[2022-08-31 18:28:27] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: image/png
-[2022-08-31 18:28:27] [class-ss-url-fetcher.php:192] New filename for static page: /wp-content/uploads/2022/08/joana.png
-[2022-08-31 18:28:27] [class-ss-url-fetcher.php:132] Renaming temp file from C:\Users\user\AppData\Local\Temp/630fa84bcbfa8-VbOihm.tmp to C:\xampp\htdocs\lodicoins\wp-content\plugins\simply-static/static-files/simply-static-1-1661970501/wp-content/uploads/2022/08/joana.png
-[2022-08-31 18:28:27] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
-[2022-08-31 18:28:27] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
-[2022-08-31 18:28:27] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
-[2022-08-31 18:28:27] [class-ss-fetch-urls-task.php:57] URL: https://localhost/lodicoins/wp-content/uploads/2022/08/mark.png
-[2022-08-31 18:28:27] [class-ss-fetch-urls-task.php:67] URL is not being excluded
-[2022-08-31 18:28:27] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\Users\user\AppData\Local\Temp/630fa84bd5045-3iCYBv.tmp
-[2022-08-31 18:28:27] [class-ss-url-fetcher.php:94] Filesize: 122311 bytes
-[2022-08-31 18:28:27] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: image/png
-[2022-08-31 18:28:27] [class-ss-url-fetcher.php:192] New filename for static page: /wp-content/uploads/2022/08/mark.png
-[2022-08-31 18:28:27] [class-ss-url-fetcher.php:132] Renaming temp file from C:\Users\user\AppData\Local\Temp/630fa84bd5045-3iCYBv.tmp to C:\xampp\htdocs\lodicoins\wp-content\plugins\simply-static/static-files/simply-static-1-1661970501/wp-content/uploads/2022/08/mark.png
-[2022-08-31 18:28:27] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
-[2022-08-31 18:28:27] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
-[2022-08-31 18:28:27] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
-[2022-08-31 18:28:27] [class-ss-fetch-urls-task.php:57] URL: https://localhost/lodicoins/wp-content/uploads/2022/08/DirkDodsonII.png
-[2022-08-31 18:28:27] [class-ss-fetch-urls-task.php:67] URL is not being excluded
-[2022-08-31 18:28:27] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\Users\user\AppData\Local\Temp/630fa84bdefdb-H9YlfA.tmp
-[2022-08-31 18:28:27] [class-ss-url-fetcher.php:94] Filesize: 114523 bytes
-[2022-08-31 18:28:27] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: image/png
-[2022-08-31 18:28:27] [class-ss-url-fetcher.php:192] New filename for static page: /wp-content/uploads/2022/08/DirkDodsonII.png
-[2022-08-31 18:28:27] [class-ss-url-fetcher.php:132] Renaming temp file from C:\Users\user\AppData\Local\Temp/630fa84bdefdb-H9YlfA.tmp to C:\xampp\htdocs\lodicoins\wp-content\plugins\simply-static/static-files/simply-static-1-1661970501/wp-content/uploads/2022/08/DirkDodsonII.png
-[2022-08-31 18:28:27] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
-[2022-08-31 18:28:27] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
-[2022-08-31 18:28:27] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
-[2022-08-31 18:28:27] [class-ss-fetch-urls-task.php:57] URL: https://localhost/lodicoins/wp-content/uploads/2022/08/MichaelAvniel.png
-[2022-08-31 18:28:27] [class-ss-fetch-urls-task.php:67] URL is not being excluded
-[2022-08-31 18:28:27] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\Users\user\AppData\Local\Temp/630fa84be8848-MKAGzr.tmp
-[2022-08-31 18:28:27] [class-ss-url-fetcher.php:94] Filesize: 122809 bytes
-[2022-08-31 18:28:27] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: image/png
-[2022-08-31 18:28:27] [class-ss-url-fetcher.php:192] New filename for static page: /wp-content/uploads/2022/08/MichaelAvniel.png
-[2022-08-31 18:28:27] [class-ss-url-fetcher.php:132] Renaming temp file from C:\Users\user\AppData\Local\Temp/630fa84be8848-MKAGzr.tmp to C:\xampp\htdocs\lodicoins\wp-content\plugins\simply-static/static-files/simply-static-1-1661970501/wp-content/uploads/2022/08/MichaelAvniel.png
-[2022-08-31 18:28:27] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
-[2022-08-31 18:28:27] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
-[2022-08-31 18:28:27] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
-[2022-08-31 18:28:27] [class-ss-fetch-urls-task.php:57] URL: https://localhost/lodicoins/wp-content/uploads/2022/08/DavidHartungJr..png
-[2022-08-31 18:28:27] [class-ss-fetch-urls-task.php:67] URL is not being excluded
-[2022-08-31 18:28:27] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\Users\user\AppData\Local\Temp/630fa84bf227b-P93NWj.tmp
-[2022-08-31 18:28:28] [class-ss-url-fetcher.php:94] Filesize: 121065 bytes
-[2022-08-31 18:28:28] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: image/png
-[2022-08-31 18:28:28] [class-ss-url-fetcher.php:192] New filename for static page: /wp-content/uploads/2022/08/DavidHartungJr..png
-[2022-08-31 18:28:28] [class-ss-url-fetcher.php:132] Renaming temp file from C:\Users\user\AppData\Local\Temp/630fa84bf227b-P93NWj.tmp to C:\xampp\htdocs\lodicoins\wp-content\plugins\simply-static/static-files/simply-static-1-1661970501/wp-content/uploads/2022/08/DavidHartungJr..png
-[2022-08-31 18:28:28] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
-[2022-08-31 18:28:28] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
-[2022-08-31 18:28:28] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
-[2022-08-31 18:28:28] [class-ss-fetch-urls-task.php:57] URL: https://localhost/lodicoins/wp-content/uploads/2022/08/newmember2.png
-[2022-08-31 18:28:28] [class-ss-fetch-urls-task.php:67] URL is not being excluded
-[2022-08-31 18:28:28] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\Users\user\AppData\Local\Temp/630fa84c09818-sr1X5i.tmp
-[2022-08-31 18:28:28] [class-ss-url-fetcher.php:94] Filesize: 109680 bytes
-[2022-08-31 18:28:28] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: image/png
-[2022-08-31 18:28:28] [class-ss-url-fetcher.php:192] New filename for static page: /wp-content/uploads/2022/08/newmember2.png
-[2022-08-31 18:28:28] [class-ss-url-fetcher.php:132] Renaming temp file from C:\Users\user\AppData\Local\Temp/630fa84c09818-sr1X5i.tmp to C:\xampp\htdocs\lodicoins\wp-content\plugins\simply-static/static-files/simply-static-1-1661970501/wp-content/uploads/2022/08/newmember2.png
-[2022-08-31 18:28:28] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
-[2022-08-31 18:28:28] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
-[2022-08-31 18:28:28] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
-[2022-08-31 18:28:28] [class-ss-fetch-urls-task.php:57] URL: https://localhost/lodicoins/wp-content/uploads/2022/08/newmember.png
-[2022-08-31 18:28:28] [class-ss-fetch-urls-task.php:67] URL is not being excluded
-[2022-08-31 18:28:28] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\Users\user\AppData\Local\Temp/630fa84c13604-irwlId.tmp
-[2022-08-31 18:28:28] [class-ss-url-fetcher.php:94] Filesize: 114600 bytes
-[2022-08-31 18:28:28] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: image/png
-[2022-08-31 18:28:28] [class-ss-url-fetcher.php:192] New filename for static page: /wp-content/uploads/2022/08/newmember.png
-[2022-08-31 18:28:28] [class-ss-url-fetcher.php:132] Renaming temp file from C:\Users\user\AppData\Local\Temp/630fa84c13604-irwlId.tmp to C:\xampp\htdocs\lodicoins\wp-content\plugins\simply-static/static-files/simply-static-1-1661970501/wp-content/uploads/2022/08/newmember.png
-[2022-08-31 18:28:28] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
-[2022-08-31 18:28:28] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
-[2022-08-31 18:28:28] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
-[2022-08-31 18:28:28] [class-ss-fetch-urls-task.php:57] URL: https://localhost/lodicoins/wp-content/uploads/2022/08/lodicoin_banner2.jpg
-[2022-08-31 18:28:28] [class-ss-fetch-urls-task.php:67] URL is not being excluded
-[2022-08-31 18:28:28] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\Users\user\AppData\Local\Temp/630fa84c1bd7c-diobRZ.tmp
-[2022-08-31 18:28:28] [class-ss-url-fetcher.php:94] Filesize: 311420 bytes
-[2022-08-31 18:28:28] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: image/jpeg
-[2022-08-31 18:28:28] [class-ss-url-fetcher.php:192] New filename for static page: /wp-content/uploads/2022/08/lodicoin_banner2.jpg
-[2022-08-31 18:28:28] [class-ss-url-fetcher.php:132] Renaming temp file from C:\Users\user\AppData\Local\Temp/630fa84c1bd7c-diobRZ.tmp to C:\xampp\htdocs\lodicoins\wp-content\plugins\simply-static/static-files/simply-static-1-1661970501/wp-content/uploads/2022/08/lodicoin_banner2.jpg
-[2022-08-31 18:28:28] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
-[2022-08-31 18:28:28] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
-[2022-08-31 18:28:28] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
-[2022-08-31 18:28:28] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 11 of 55 pages/files
-[2022-08-31 18:28:28] [class-ss-archive-creation-job.php:145] We're not done with the fetch_urls task yet
-[2022-08-31 18:28:28] [class-ss-archive-creation-job.php:105] Current task: fetch_urls
-[2022-08-31 18:28:28] [class-ss-archive-creation-job.php:121] Performing task: fetch_urls
-[2022-08-31 18:28:28] [class-ss-fetch-urls-task.php:54] Total pages: 55; Pages remaining: 34
-[2022-08-31 18:28:28] [class-ss-fetch-urls-task.php:57] URL: https://localhost/lodicoins/wp-content/uploads/2022/08/lodicoin_banner3.jpg
-[2022-08-31 18:28:28] [class-ss-fetch-urls-task.php:67] URL is not being excluded
-[2022-08-31 18:28:28] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\Users\user\AppData\Local\Temp/630fa84c2b69d-ECEv2Q.tmp
-[2022-08-31 18:28:28] [class-ss-url-fetcher.php:94] Filesize: 496110 bytes
-[2022-08-31 18:28:28] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: image/jpeg
-[2022-08-31 18:28:28] [class-ss-url-fetcher.php:192] New filename for static page: /wp-content/uploads/2022/08/lodicoin_banner3.jpg
-[2022-08-31 18:28:28] [class-ss-url-fetcher.php:132] Renaming temp file from C:\Users\user\AppData\Local\Temp/630fa84c2b69d-ECEv2Q.tmp to C:\xampp\htdocs\lodicoins\wp-content\plugins\simply-static/static-files/simply-static-1-1661970501/wp-content/uploads/2022/08/lodicoin_banner3.jpg
-[2022-08-31 18:28:28] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
-[2022-08-31 18:28:28] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
-[2022-08-31 18:28:28] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
-[2022-08-31 18:28:28] [class-ss-fetch-urls-task.php:57] URL: https://localhost/lodicoins/wp-content/uploads/2022/08/MPNFT.png
-[2022-08-31 18:28:28] [class-ss-fetch-urls-task.php:67] URL is not being excluded
-[2022-08-31 18:28:28] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\Users\user\AppData\Local\Temp/630fa84c36bcf-PeLDiu.tmp
-[2022-08-31 18:28:28] [class-ss-url-fetcher.php:94] Filesize: 266793 bytes
-[2022-08-31 18:28:28] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: image/png
-[2022-08-31 18:28:28] [class-ss-url-fetcher.php:192] New filename for static page: /wp-content/uploads/2022/08/MPNFT.png
-[2022-08-31 18:28:28] [class-ss-url-fetcher.php:132] Renaming temp file from C:\Users\user\AppData\Local\Temp/630fa84c36bcf-PeLDiu.tmp to C:\xampp\htdocs\lodicoins\wp-content\plugins\simply-static/static-files/simply-static-1-1661970501/wp-content/uploads/2022/08/MPNFT.png
-[2022-08-31 18:28:28] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
-[2022-08-31 18:28:28] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
-[2022-08-31 18:28:28] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
-[2022-08-31 18:28:28] [class-ss-fetch-urls-task.php:57] URL: https://localhost/lodicoins/wp-content/plugins/wpforms-lite/assets/images/submit-spin.svg
-[2022-08-31 18:28:28] [class-ss-fetch-urls-task.php:67] URL is not being excluded
-[2022-08-31 18:28:28] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\Users\user\AppData\Local\Temp/630fa84c3fe80-FZydMB.tmp
-[2022-08-31 18:28:28] [class-ss-url-fetcher.php:94] Filesize: 509 bytes
-[2022-08-31 18:28:28] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: image/svg+xml
-[2022-08-31 18:28:28] [class-ss-url-fetcher.php:192] New filename for static page: /wp-content/plugins/wpforms-lite/assets/images/submit-spin.svg
-[2022-08-31 18:28:28] [class-ss-url-fetcher.php:132] Renaming temp file from C:\Users\user\AppData\Local\Temp/630fa84c3fe80-FZydMB.tmp to C:\xampp\htdocs\lodicoins\wp-content\plugins\simply-static/static-files/simply-static-1-1661970501/wp-content/plugins/wpforms-lite/assets/images/submit-spin.svg
-[2022-08-31 18:28:28] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
-[2022-08-31 18:28:28] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
-[2022-08-31 18:28:28] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
-[2022-08-31 18:28:28] [class-ss-fetch-urls-task.php:57] URL: https://localhost/lodicoins/feed/
-[2022-08-31 18:28:28] [class-ss-fetch-urls-task.php:67] URL is not being excluded
-[2022-08-31 18:28:28] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\Users\user\AppData\Local\Temp/630fa84c495bb-1FRxMl.tmp
-[2022-08-31 18:28:28] [class-ss-url-fetcher.php:94] Filesize: 1310 bytes
-[2022-08-31 18:28:28] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: text/html
-[2022-08-31 18:28:28] [class-ss-url-fetcher.php:192] New filename for static page: /feed/index.html
-[2022-08-31 18:28:28] [class-ss-url-fetcher.php:132] Renaming temp file from C:\Users\user\AppData\Local\Temp/630fa84c495bb-1FRxMl.tmp to C:\xampp\htdocs\lodicoins\wp-content\plugins\simply-static/static-files/simply-static-1-1661970501/feed/index.html
-[2022-08-31 18:28:28] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
-[2022-08-31 18:28:28] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
-[2022-08-31 18:28:28] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
-[2022-08-31 18:28:28] [class-ss-fetch-urls-task.php:57] URL: https://localhost/lodicoins/comments/feed/
-[2022-08-31 18:28:28] [class-ss-fetch-urls-task.php:67] URL is not being excluded
-[2022-08-31 18:28:28] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\Users\user\AppData\Local\Temp/630fa84c531b8-VOF8tP.tmp
-[2022-08-31 18:28:28] [class-ss-url-fetcher.php:94] Filesize: 1382 bytes
-[2022-08-31 18:28:28] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: text/html
-[2022-08-31 18:28:28] [class-ss-url-fetcher.php:192] New filename for static page: /comments/feed/index.html
-[2022-08-31 18:28:28] [class-ss-url-fetcher.php:132] Renaming temp file from C:\Users\user\AppData\Local\Temp/630fa84c531b8-VOF8tP.tmp to C:\xampp\htdocs\lodicoins\wp-content\plugins\simply-static/static-files/simply-static-1-1661970501/comments/feed/index.html
-[2022-08-31 18:28:28] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
-[2022-08-31 18:28:28] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
-[2022-08-31 18:28:28] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
-[2022-08-31 18:28:28] [class-ss-fetch-urls-task.php:57] URL: https://localhost/lodicoins/wp-content/plugins/bb-plugin/fonts/fontawesome/5.15.4/webfonts/fa-brands-400.woff2
-[2022-08-31 18:28:28] [class-ss-fetch-urls-task.php:67] URL is not being excluded
-[2022-08-31 18:28:28] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\Users\user\AppData\Local\Temp/630fa84c5de4b-KoAf7u.tmp
-[2022-08-31 18:28:28] [class-ss-url-fetcher.php:94] Filesize: 76736 bytes
-[2022-08-31 18:28:28] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: font/woff2
-[2022-08-31 18:28:28] [class-ss-url-fetcher.php:192] New filename for static page: /wp-content/plugins/bb-plugin/fonts/fontawesome/5.15.4/webfonts/fa-brands-400.woff2
-[2022-08-31 18:28:28] [class-ss-url-fetcher.php:132] Renaming temp file from C:\Users\user\AppData\Local\Temp/630fa84c5de4b-KoAf7u.tmp to C:\xampp\htdocs\lodicoins\wp-content\plugins\simply-static/static-files/simply-static-1-1661970501/wp-content/plugins/bb-plugin/fonts/fontawesome/5.15.4/webfonts/fa-brands-400.woff2
-[2022-08-31 18:28:28] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
-[2022-08-31 18:28:28] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
-[2022-08-31 18:28:28] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
-[2022-08-31 18:28:28] [class-ss-fetch-urls-task.php:57] URL: https://localhost/lodicoins/wp-includes/css/dist/block-library/style.min.css
-[2022-08-31 18:28:28] [class-ss-fetch-urls-task.php:67] URL is not being excluded
-[2022-08-31 18:28:28] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\Users\user\AppData\Local\Temp/630fa84c678df-7xkJsb.tmp
-[2022-08-31 18:28:28] [class-ss-url-fetcher.php:94] Filesize: 88932 bytes
-[2022-08-31 18:28:28] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: text/css
-[2022-08-31 18:28:28] [class-ss-url-fetcher.php:192] New filename for static page: /wp-includes/css/dist/block-library/style.min.css
-[2022-08-31 18:28:28] [class-ss-url-fetcher.php:132] Renaming temp file from C:\Users\user\AppData\Local\Temp/630fa84c678df-7xkJsb.tmp to C:\xampp\htdocs\lodicoins\wp-content\plugins\simply-static/static-files/simply-static-1-1661970501/wp-includes/css/dist/block-library/style.min.css
-[2022-08-31 18:28:28] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
-[2022-08-31 18:28:28] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
-[2022-08-31 18:28:28] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
-[2022-08-31 18:28:28] [class-ss-fetch-urls-task.php:57] URL: https://localhost/lodicoins/wp-content/uploads/bb-plugin/cache/13-layout.css
-[2022-08-31 18:28:28] [class-ss-fetch-urls-task.php:67] URL is not being excluded
-[2022-08-31 18:28:28] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\Users\user\AppData\Local\Temp/630fa84c745a9-OEEnQE.tmp
-[2022-08-31 18:28:28] [class-ss-url-fetcher.php:94] Filesize: 236930 bytes
-[2022-08-31 18:28:28] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: text/css
-[2022-08-31 18:28:28] [class-ss-url-fetcher.php:192] New filename for static page: /wp-content/uploads/bb-plugin/cache/13-layout.css
-[2022-08-31 18:28:28] [class-ss-url-fetcher.php:132] Renaming temp file from C:\Users\user\AppData\Local\Temp/630fa84c745a9-OEEnQE.tmp to C:\xampp\htdocs\lodicoins\wp-content\plugins\simply-static/static-files/simply-static-1-1661970501/wp-content/uploads/bb-plugin/cache/13-layout.css
-[2022-08-31 18:28:28] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
-[2022-08-31 18:28:28] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
-[2022-08-31 18:28:28] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
-[2022-08-31 18:28:28] [class-ss-fetch-urls-task.php:57] URL: https://localhost/lodicoins/wp-content/plugins/bb-plugin/fonts/fontawesome/5.15.4/css/all.min.css
-[2022-08-31 18:28:28] [class-ss-fetch-urls-task.php:67] URL is not being excluded
-[2022-08-31 18:28:28] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\Users\user\AppData\Local\Temp/630fa84c84576-bbgvXm.tmp
-[2022-08-31 18:28:28] [class-ss-url-fetcher.php:94] Filesize: 60868 bytes
-[2022-08-31 18:28:28] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: text/css
-[2022-08-31 18:28:28] [class-ss-url-fetcher.php:192] New filename for static page: /wp-content/plugins/bb-plugin/fonts/fontawesome/5.15.4/css/all.min.css
-[2022-08-31 18:28:28] [class-ss-url-fetcher.php:132] Renaming temp file from C:\Users\user\AppData\Local\Temp/630fa84c84576-bbgvXm.tmp to C:\xampp\htdocs\lodicoins\wp-content\plugins\simply-static/static-files/simply-static-1-1661970501/wp-content/plugins/bb-plugin/fonts/fontawesome/5.15.4/css/all.min.css
-[2022-08-31 18:28:28] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
-[2022-08-31 18:28:28] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
-[2022-08-31 18:28:28] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
-[2022-08-31 18:28:28] [class-ss-fetch-urls-task.php:57] URL: https://localhost/lodicoins/wp-content/uploads/bb-plugin/cache/1c8981c489792b2966f5335ce7826c7f-layout-bundle.css
-[2022-08-31 18:28:28] [class-ss-fetch-urls-task.php:67] URL is not being excluded
-[2022-08-31 18:28:28] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\Users\user\AppData\Local\Temp/630fa84c98f10-0AUQ6f.tmp
-[2022-08-31 18:28:28] [class-ss-url-fetcher.php:94] Filesize: 91491 bytes
-[2022-08-31 18:28:28] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: text/css
-[2022-08-31 18:28:28] [class-ss-url-fetcher.php:192] New filename for static page: /wp-content/uploads/bb-plugin/cache/1c8981c489792b2966f5335ce7826c7f-layout-bundle.css
-[2022-08-31 18:28:28] [class-ss-url-fetcher.php:132] Renaming temp file from C:\Users\user\AppData\Local\Temp/630fa84c98f10-0AUQ6f.tmp to C:\xampp\htdocs\lodicoins\wp-content\plugins\simply-static/static-files/simply-static-1-1661970501/wp-content/uploads/bb-plugin/cache/1c8981c489792b2966f5335ce7826c7f-layout-bundle.css
-[2022-08-31 18:28:28] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
-[2022-08-31 18:28:28] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
-[2022-08-31 18:28:28] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
-[2022-08-31 18:28:28] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 21 of 55 pages/files
-[2022-08-31 18:28:28] [class-ss-archive-creation-job.php:145] We're not done with the fetch_urls task yet
-[2022-08-31 18:28:28] [class-ss-archive-creation-job.php:105] Current task: fetch_urls
-[2022-08-31 18:28:28] [class-ss-archive-creation-job.php:121] Performing task: fetch_urls
-[2022-08-31 18:28:28] [class-ss-fetch-urls-task.php:54] Total pages: 55; Pages remaining: 24
-[2022-08-31 18:28:28] [class-ss-fetch-urls-task.php:57] URL: https://localhost/lodicoins/wp-content/plugins/bb-plugin/css/jquery.magnificpopup.min.css
-[2022-08-31 18:28:28] [class-ss-fetch-urls-task.php:67] URL is not being excluded
-[2022-08-31 18:28:28] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\Users\user\AppData\Local\Temp/630fa84ca9809-MxEQof.tmp
-[2022-08-31 18:28:28] [class-ss-url-fetcher.php:94] Filesize: 5788 bytes
-[2022-08-31 18:28:28] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: text/css
-[2022-08-31 18:28:28] [class-ss-url-fetcher.php:192] New filename for static page: /wp-content/plugins/bb-plugin/css/jquery.magnificpopup.min.css
-[2022-08-31 18:28:28] [class-ss-url-fetcher.php:132] Renaming temp file from C:\Users\user\AppData\Local\Temp/630fa84ca9809-MxEQof.tmp to C:\xampp\htdocs\lodicoins\wp-content\plugins\simply-static/static-files/simply-static-1-1661970501/wp-content/plugins/bb-plugin/css/jquery.magnificpopup.min.css
-[2022-08-31 18:28:28] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
-[2022-08-31 18:28:28] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
-[2022-08-31 18:28:28] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
-[2022-08-31 18:28:28] [class-ss-fetch-urls-task.php:57] URL: https://localhost/lodicoins/wp-content/themes/bb-theme/css/base.min.css
-[2022-08-31 18:28:28] [class-ss-fetch-urls-task.php:67] URL is not being excluded
-[2022-08-31 18:28:28] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\Users\user\AppData\Local\Temp/630fa84cb2e0a-Pl1nQV.tmp
-[2022-08-31 18:28:28] [class-ss-url-fetcher.php:94] Filesize: 48426 bytes
-[2022-08-31 18:28:28] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: text/css
-[2022-08-31 18:28:28] [class-ss-url-fetcher.php:192] New filename for static page: /wp-content/themes/bb-theme/css/base.min.css
-[2022-08-31 18:28:28] [class-ss-url-fetcher.php:132] Renaming temp file from C:\Users\user\AppData\Local\Temp/630fa84cb2e0a-Pl1nQV.tmp to C:\xampp\htdocs\lodicoins\wp-content\plugins\simply-static/static-files/simply-static-1-1661970501/wp-content/themes/bb-theme/css/base.min.css
-[2022-08-31 18:28:28] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
-[2022-08-31 18:28:28] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
-[2022-08-31 18:28:28] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
-[2022-08-31 18:28:28] [class-ss-fetch-urls-task.php:57] URL: https://localhost/lodicoins/wp-content/uploads/bb-theme/skin-630f6bea551ff.css
-[2022-08-31 18:28:28] [class-ss-fetch-urls-task.php:67] URL is not being excluded
-[2022-08-31 18:28:28] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\Users\user\AppData\Local\Temp/630fa84cc0930-6dF6gZ.tmp
-[2022-08-31 18:28:28] [class-ss-url-fetcher.php:94] Filesize: 50352 bytes
-[2022-08-31 18:28:28] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: text/css
-[2022-08-31 18:28:28] [class-ss-url-fetcher.php:192] New filename for static page: /wp-content/uploads/bb-theme/skin-630f6bea551ff.css
-[2022-08-31 18:28:28] [class-ss-url-fetcher.php:132] Renaming temp file from C:\Users\user\AppData\Local\Temp/630fa84cc0930-6dF6gZ.tmp to C:\xampp\htdocs\lodicoins\wp-content\plugins\simply-static/static-files/simply-static-1-1661970501/wp-content/uploads/bb-theme/skin-630f6bea551ff.css
-[2022-08-31 18:28:28] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
-[2022-08-31 18:28:28] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
-[2022-08-31 18:28:28] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
-[2022-08-31 18:28:28] [class-ss-fetch-urls-task.php:57] URL: https://localhost/lodicoins/wp-content/plugins/bbpowerpack/assets/css/animate.min.css
-[2022-08-31 18:28:28] [class-ss-fetch-urls-task.php:67] URL is not being excluded
-[2022-08-31 18:28:28] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\Users\user\AppData\Local\Temp/630fa84cccf90-3Urjle.tmp
-[2022-08-31 18:28:28] [class-ss-url-fetcher.php:94] Filesize: 52789 bytes
-[2022-08-31 18:28:28] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: text/css
-[2022-08-31 18:28:28] [class-ss-url-fetcher.php:192] New filename for static page: /wp-content/plugins/bbpowerpack/assets/css/animate.min.css
-[2022-08-31 18:28:28] [class-ss-url-fetcher.php:132] Renaming temp file from C:\Users\user\AppData\Local\Temp/630fa84cccf90-3Urjle.tmp to C:\xampp\htdocs\lodicoins\wp-content\plugins\simply-static/static-files/simply-static-1-1661970501/wp-content/plugins/bbpowerpack/assets/css/animate.min.css
-[2022-08-31 18:28:28] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
-[2022-08-31 18:28:28] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
-[2022-08-31 18:28:28] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
-[2022-08-31 18:28:28] [class-ss-fetch-urls-task.php:57] URL: https://localhost/lodicoins/wp-json/
-[2022-08-31 18:28:28] [class-ss-fetch-urls-task.php:67] URL is not being excluded
-[2022-08-31 18:28:28] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\Users\user\AppData\Local\Temp/630fa84cd96a7-Of0XRD.tmp
-[2022-08-31 18:28:28] [class-ss-url-fetcher.php:94] Filesize: 174321 bytes
-[2022-08-31 18:28:28] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: text/html
-[2022-08-31 18:28:28] [class-ss-url-fetcher.php:192] New filename for static page: /wp-json/index.html
-[2022-08-31 18:28:28] [class-ss-url-fetcher.php:132] Renaming temp file from C:\Users\user\AppData\Local\Temp/630fa84cd96a7-Of0XRD.tmp to C:\xampp\htdocs\lodicoins\wp-content\plugins\simply-static/static-files/simply-static-1-1661970501/wp-json/index.html
-[2022-08-31 18:28:28] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
-[2022-08-31 18:28:29] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
-[2022-08-31 18:28:29] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
-[2022-08-31 18:28:29] [class-ss-fetch-urls-task.php:57] URL: https://localhost/lodicoins/wp-json/wp/v2/pages/13
-[2022-08-31 18:28:29] [class-ss-fetch-urls-task.php:67] URL is not being excluded
-[2022-08-31 18:28:29] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\Users\user\AppData\Local\Temp/630fa84d03cb1-oTS2Tg.tmp
-[2022-08-31 18:28:30] [class-ss-url-fetcher.php:94] Filesize: 14202 bytes
-[2022-08-31 18:28:30] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: application/json; charset=UTF-8
-[2022-08-31 18:28:30] [class-ss-url-fetcher.php:192] New filename for static page: /wp-json/wp/v2/pages/13\index.html
-[2022-08-31 18:28:30] [class-ss-url-fetcher.php:132] Renaming temp file from C:\Users\user\AppData\Local\Temp/630fa84d03cb1-oTS2Tg.tmp to C:\xampp\htdocs\lodicoins\wp-content\plugins\simply-static/static-files/simply-static-1-1661970501/wp-json/wp/v2/pages/13\index.html
-[2022-08-31 18:28:30] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
-[2022-08-31 18:28:30] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
-[2022-08-31 18:28:30] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
-[2022-08-31 18:28:30] [class-ss-fetch-urls-task.php:57] URL: https://localhost/lodicoins/xmlrpc.php
-[2022-08-31 18:28:30] [class-ss-fetch-urls-task.php:67] URL is not being excluded
-[2022-08-31 18:28:30] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\Users\user\AppData\Local\Temp/630fa84ebf834-Uzx0j4.tmp
-[2022-08-31 18:28:32] [class-ss-url-fetcher.php:94] Filesize: 42 bytes
-[2022-08-31 18:28:32] [class-ss-url-fetcher.php:109] http_status_code: 405 | content_type: text/plain;charset=UTF-8
-[2022-08-31 18:28:32] [class-ss-url-fetcher.php:135] We weren't able to establish a filename; deleting temp file
-[2022-08-31 18:28:32] [class-ss-fetch-urls-task.php:57] URL: https://localhost/lodicoins/wp-includes/wlwmanifest.xml
-[2022-08-31 18:28:32] [class-ss-fetch-urls-task.php:67] URL is not being excluded
-[2022-08-31 18:28:32] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\Users\user\AppData\Local\Temp/630fa85028f95-6IhKtI.tmp
-[2022-08-31 18:28:32] [class-ss-url-fetcher.php:94] Filesize: 1045 bytes
-[2022-08-31 18:28:32] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: application/xml
-[2022-08-31 18:28:32] [class-ss-url-fetcher.php:192] New filename for static page: /wp-includes/wlwmanifest.xml
-[2022-08-31 18:28:32] [class-ss-url-fetcher.php:132] Renaming temp file from C:\Users\user\AppData\Local\Temp/630fa85028f95-6IhKtI.tmp to C:\xampp\htdocs\lodicoins\wp-content\plugins\simply-static/static-files/simply-static-1-1661970501/wp-includes/wlwmanifest.xml
-[2022-08-31 18:28:32] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
-[2022-08-31 18:28:32] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
-[2022-08-31 18:28:32] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
-[2022-08-31 18:28:32] [class-ss-fetch-urls-task.php:57] URL: https://localhost/lodicoins/wp-json/oembed/1.0/embed
-[2022-08-31 18:28:32] [class-ss-fetch-urls-task.php:67] URL is not being excluded
-[2022-08-31 18:28:32] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\Users\user\AppData\Local\Temp/630fa85033bdc-aUfHPv.tmp
-[2022-08-31 18:28:33] [class-ss-url-fetcher.php:94] Filesize: 115 bytes
-[2022-08-31 18:28:33] [class-ss-url-fetcher.php:109] http_status_code: 400 | content_type: application/json; charset=UTF-8
-[2022-08-31 18:28:33] [class-ss-url-fetcher.php:135] We weren't able to establish a filename; deleting temp file
-[2022-08-31 18:28:33] [class-ss-fetch-urls-task.php:57] URL: https://localhost/lodicoins/wp-content/plugins/wpforms-lite/assets/css/wpforms-full.min.css
-[2022-08-31 18:28:33] [class-ss-fetch-urls-task.php:67] URL is not being excluded
-[2022-08-31 18:28:33] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\Users\user\AppData\Local\Temp/630fa851c1804-10xBY0.tmp
-[2022-08-31 18:28:33] [class-ss-url-fetcher.php:94] Filesize: 40920 bytes
-[2022-08-31 18:28:33] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: text/css
-[2022-08-31 18:28:33] [class-ss-url-fetcher.php:192] New filename for static page: /wp-content/plugins/wpforms-lite/assets/css/wpforms-full.min.css
-[2022-08-31 18:28:33] [class-ss-url-fetcher.php:132] Renaming temp file from C:\Users\user\AppData\Local\Temp/630fa851c1804-10xBY0.tmp to C:\xampp\htdocs\lodicoins\wp-content\plugins\simply-static/static-files/simply-static-1-1661970501/wp-content/plugins/wpforms-lite/assets/css/wpforms-full.min.css
-[2022-08-31 18:28:33] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
-[2022-08-31 18:28:33] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
-[2022-08-31 18:28:33] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
-[2022-08-31 18:28:33] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 31 of 55 pages/files
-[2022-08-31 18:28:33] [class-ss-archive-creation-job.php:145] We're not done with the fetch_urls task yet
-[2022-08-31 18:28:33] [class-ss-archive-creation-job.php:105] Current task: fetch_urls
-[2022-08-31 18:28:33] [class-ss-archive-creation-job.php:121] Performing task: fetch_urls
-[2022-08-31 18:28:33] [class-ss-fetch-urls-task.php:54] Total pages: 55; Pages remaining: 14
-[2022-08-31 18:28:33] [class-ss-fetch-urls-task.php:57] URL: https://localhost/lodicoins/wp-includes/js/jquery/jquery.min.js
-[2022-08-31 18:28:33] [class-ss-fetch-urls-task.php:67] URL is not being excluded
-[2022-08-31 18:28:33] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\Users\user\AppData\Local\Temp/630fa851d01e1-8npEkX.tmp
-[2022-08-31 18:28:33] [class-ss-url-fetcher.php:94] Filesize: 89521 bytes
-[2022-08-31 18:28:33] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: application/javascript
-[2022-08-31 18:28:33] [class-ss-url-fetcher.php:192] New filename for static page: /wp-includes/js/jquery/jquery.min.js
-[2022-08-31 18:28:33] [class-ss-url-fetcher.php:132] Renaming temp file from C:\Users\user\AppData\Local\Temp/630fa851d01e1-8npEkX.tmp to C:\xampp\htdocs\lodicoins\wp-content\plugins\simply-static/static-files/simply-static-1-1661970501/wp-includes/js/jquery/jquery.min.js
-[2022-08-31 18:28:33] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
-[2022-08-31 18:28:33] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
-[2022-08-31 18:28:33] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
-[2022-08-31 18:28:33] [class-ss-fetch-urls-task.php:57] URL: https://localhost/lodicoins/wp-includes/js/jquery/jquery-migrate.min.js
-[2022-08-31 18:28:33] [class-ss-fetch-urls-task.php:67] URL is not being excluded
-[2022-08-31 18:28:33] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\Users\user\AppData\Local\Temp/630fa851ef3ca-WoiTkk.tmp
-[2022-08-31 18:28:34] [class-ss-url-fetcher.php:94] Filesize: 11224 bytes
-[2022-08-31 18:28:34] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: application/javascript
-[2022-08-31 18:28:34] [class-ss-url-fetcher.php:192] New filename for static page: /wp-includes/js/jquery/jquery-migrate.min.js
-[2022-08-31 18:28:34] [class-ss-url-fetcher.php:132] Renaming temp file from C:\Users\user\AppData\Local\Temp/630fa851ef3ca-WoiTkk.tmp to C:\xampp\htdocs\lodicoins\wp-content\plugins\simply-static/static-files/simply-static-1-1661970501/wp-includes/js/jquery/jquery-migrate.min.js
-[2022-08-31 18:28:34] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
-[2022-08-31 18:28:34] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
-[2022-08-31 18:28:34] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
-[2022-08-31 18:28:34] [class-ss-fetch-urls-task.php:57] URL: https://localhost/lodicoins/wp-includes/js/imagesloaded.min.js
-[2022-08-31 18:28:34] [class-ss-fetch-urls-task.php:67] URL is not being excluded
-[2022-08-31 18:28:34] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\Users\user\AppData\Local\Temp/630fa85209a06-lOGF9T.tmp
-[2022-08-31 18:28:34] [class-ss-url-fetcher.php:94] Filesize: 5629 bytes
-[2022-08-31 18:28:34] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: application/javascript
-[2022-08-31 18:28:34] [class-ss-url-fetcher.php:192] New filename for static page: /wp-includes/js/imagesloaded.min.js
-[2022-08-31 18:28:34] [class-ss-url-fetcher.php:132] Renaming temp file from C:\Users\user\AppData\Local\Temp/630fa85209a06-lOGF9T.tmp to C:\xampp\htdocs\lodicoins\wp-content\plugins\simply-static/static-files/simply-static-1-1661970501/wp-includes/js/imagesloaded.min.js
-[2022-08-31 18:28:34] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
-[2022-08-31 18:28:34] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
-[2022-08-31 18:28:34] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
-[2022-08-31 18:28:34] [class-ss-fetch-urls-task.php:57] URL: https://localhost/lodicoins/wp-content/plugins/bb-plugin/js/jquery.waypoints.min.js
-[2022-08-31 18:28:34] [class-ss-fetch-urls-task.php:67] URL is not being excluded
-[2022-08-31 18:28:34] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\Users\user\AppData\Local\Temp/630fa852185bd-4DQwWo.tmp
-[2022-08-31 18:28:34] [class-ss-url-fetcher.php:94] Filesize: 8833 bytes
-[2022-08-31 18:28:34] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: application/javascript
-[2022-08-31 18:28:34] [class-ss-url-fetcher.php:192] New filename for static page: /wp-content/plugins/bb-plugin/js/jquery.waypoints.min.js
-[2022-08-31 18:28:34] [class-ss-url-fetcher.php:132] Renaming temp file from C:\Users\user\AppData\Local\Temp/630fa852185bd-4DQwWo.tmp to C:\xampp\htdocs\lodicoins\wp-content\plugins\simply-static/static-files/simply-static-1-1661970501/wp-content/plugins/bb-plugin/js/jquery.waypoints.min.js
-[2022-08-31 18:28:34] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
-[2022-08-31 18:28:34] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
-[2022-08-31 18:28:34] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
-[2022-08-31 18:28:34] [class-ss-fetch-urls-task.php:57] URL: https://localhost/lodicoins/wp-content/uploads/bb-plugin/cache/13-layout.js
-[2022-08-31 18:28:34] [class-ss-fetch-urls-task.php:67] URL is not being excluded
-[2022-08-31 18:28:34] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\Users\user\AppData\Local\Temp/630fa85224990-HcSxgR.tmp
-[2022-08-31 18:28:34] [class-ss-url-fetcher.php:94] Filesize: 66535 bytes
-[2022-08-31 18:28:34] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: application/javascript
-[2022-08-31 18:28:34] [class-ss-url-fetcher.php:192] New filename for static page: /wp-content/uploads/bb-plugin/cache/13-layout.js
-[2022-08-31 18:28:34] [class-ss-url-fetcher.php:132] Renaming temp file from C:\Users\user\AppData\Local\Temp/630fa85224990-HcSxgR.tmp to C:\xampp\htdocs\lodicoins\wp-content\plugins\simply-static/static-files/simply-static-1-1661970501/wp-content/uploads/bb-plugin/cache/13-layout.js
-[2022-08-31 18:28:34] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
-[2022-08-31 18:28:34] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
-[2022-08-31 18:28:34] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
-[2022-08-31 18:28:34] [class-ss-fetch-urls-task.php:57] URL: https://localhost/lodicoins/wp-content/plugins/bb-plugin/js/jquery.ba-throttle-debounce.min.js
-[2022-08-31 18:28:34] [class-ss-fetch-urls-task.php:67] URL is not being excluded
-[2022-08-31 18:28:34] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\Users\user\AppData\Local\Temp/630fa85235b3f-z3OtjZ.tmp
-[2022-08-31 18:28:34] [class-ss-url-fetcher.php:94] Filesize: 731 bytes
-[2022-08-31 18:28:34] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: application/javascript
-[2022-08-31 18:28:34] [class-ss-url-fetcher.php:192] New filename for static page: /wp-content/plugins/bb-plugin/js/jquery.ba-throttle-debounce.min.js
-[2022-08-31 18:28:34] [class-ss-url-fetcher.php:132] Renaming temp file from C:\Users\user\AppData\Local\Temp/630fa85235b3f-z3OtjZ.tmp to C:\xampp\htdocs\lodicoins\wp-content\plugins\simply-static/static-files/simply-static-1-1661970501/wp-content/plugins/bb-plugin/js/jquery.ba-throttle-debounce.min.js
-[2022-08-31 18:28:34] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
-[2022-08-31 18:28:34] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
-[2022-08-31 18:28:34] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
-[2022-08-31 18:28:34] [class-ss-fetch-urls-task.php:57] URL: https://localhost/lodicoins/wp-content/uploads/bb-plugin/cache/ca34f61a30ca0b9f9af6933c7ac850de-layout-bundle.js
-[2022-08-31 18:28:34] [class-ss-fetch-urls-task.php:67] URL is not being excluded
-[2022-08-31 18:28:34] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\Users\user\AppData\Local\Temp/630fa852420f6-9u7obi.tmp
-[2022-08-31 18:28:34] [class-ss-url-fetcher.php:94] Filesize: 51805 bytes
-[2022-08-31 18:28:34] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: application/javascript
-[2022-08-31 18:28:34] [class-ss-url-fetcher.php:192] New filename for static page: /wp-content/uploads/bb-plugin/cache/ca34f61a30ca0b9f9af6933c7ac850de-layout-bundle.js
-[2022-08-31 18:28:34] [class-ss-url-fetcher.php:132] Renaming temp file from C:\Users\user\AppData\Local\Temp/630fa852420f6-9u7obi.tmp to C:\xampp\htdocs\lodicoins\wp-content\plugins\simply-static/static-files/simply-static-1-1661970501/wp-content/uploads/bb-plugin/cache/ca34f61a30ca0b9f9af6933c7ac850de-layout-bundle.js
-[2022-08-31 18:28:34] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
-[2022-08-31 18:28:34] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
-[2022-08-31 18:28:34] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
-[2022-08-31 18:28:34] [class-ss-fetch-urls-task.php:57] URL: https://localhost/lodicoins/wp-content/plugins/bb-plugin/js/jquery.magnificpopup.min.js
-[2022-08-31 18:28:34] [class-ss-fetch-urls-task.php:67] URL is not being excluded
-[2022-08-31 18:28:34] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\Users\user\AppData\Local\Temp/630fa8524f1bc-KsgWSl.tmp
-[2022-08-31 18:28:34] [class-ss-url-fetcher.php:94] Filesize: 19875 bytes
-[2022-08-31 18:28:34] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: application/javascript
-[2022-08-31 18:28:34] [class-ss-url-fetcher.php:192] New filename for static page: /wp-content/plugins/bb-plugin/js/jquery.magnificpopup.min.js
-[2022-08-31 18:28:34] [class-ss-url-fetcher.php:132] Renaming temp file from C:\Users\user\AppData\Local\Temp/630fa8524f1bc-KsgWSl.tmp to C:\xampp\htdocs\lodicoins\wp-content\plugins\simply-static/static-files/simply-static-1-1661970501/wp-content/plugins/bb-plugin/js/jquery.magnificpopup.min.js
-[2022-08-31 18:28:34] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
-[2022-08-31 18:28:34] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
-[2022-08-31 18:28:34] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
-[2022-08-31 18:28:34] [class-ss-fetch-urls-task.php:57] URL: https://localhost/lodicoins/wp-content/themes/bb-theme/js/theme.min.js
-[2022-08-31 18:28:34] [class-ss-fetch-urls-task.php:67] URL is not being excluded
-[2022-08-31 18:28:34] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\Users\user\AppData\Local\Temp/630fa8525dfd4-0Gkmwm.tmp
-[2022-08-31 18:28:34] [class-ss-url-fetcher.php:94] Filesize: 20712 bytes
-[2022-08-31 18:28:34] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: application/javascript
-[2022-08-31 18:28:34] [class-ss-url-fetcher.php:192] New filename for static page: /wp-content/themes/bb-theme/js/theme.min.js
-[2022-08-31 18:28:34] [class-ss-url-fetcher.php:132] Renaming temp file from C:\Users\user\AppData\Local\Temp/630fa8525dfd4-0Gkmwm.tmp to C:\xampp\htdocs\lodicoins\wp-content\plugins\simply-static/static-files/simply-static-1-1661970501/wp-content/themes/bb-theme/js/theme.min.js
-[2022-08-31 18:28:34] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
-[2022-08-31 18:28:34] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
-[2022-08-31 18:28:34] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
-[2022-08-31 18:28:34] [class-ss-fetch-urls-task.php:57] URL: https://localhost/lodicoins/wp-content/plugins/wpforms-lite/assets/lib/jquery.validate.min.js
-[2022-08-31 18:28:34] [class-ss-fetch-urls-task.php:67] URL is not being excluded
-[2022-08-31 18:28:34] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\Users\user\AppData\Local\Temp/630fa8526bb48-sUKF5J.tmp
-[2022-08-31 18:28:34] [class-ss-url-fetcher.php:94] Filesize: 24602 bytes
-[2022-08-31 18:28:34] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: application/javascript
-[2022-08-31 18:28:34] [class-ss-url-fetcher.php:192] New filename for static page: /wp-content/plugins/wpforms-lite/assets/lib/jquery.validate.min.js
-[2022-08-31 18:28:34] [class-ss-url-fetcher.php:132] Renaming temp file from C:\Users\user\AppData\Local\Temp/630fa8526bb48-sUKF5J.tmp to C:\xampp\htdocs\lodicoins\wp-content\plugins\simply-static/static-files/simply-static-1-1661970501/wp-content/plugins/wpforms-lite/assets/lib/jquery.validate.min.js
-[2022-08-31 18:28:34] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
-[2022-08-31 18:28:34] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
-[2022-08-31 18:28:34] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
-[2022-08-31 18:28:34] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 41 of 55 pages/files
-[2022-08-31 18:28:34] [class-ss-archive-creation-job.php:145] We're not done with the fetch_urls task yet
-[2022-08-31 18:28:34] [class-ss-archive-creation-job.php:105] Current task: fetch_urls
-[2022-08-31 18:28:34] [class-ss-archive-creation-job.php:121] Performing task: fetch_urls
-[2022-08-31 18:28:34] [class-ss-fetch-urls-task.php:54] Total pages: 55; Pages remaining: 4
-[2022-08-31 18:28:34] [class-ss-fetch-urls-task.php:57] URL: https://localhost/lodicoins/wp-content/plugins/wpforms-lite/assets/lib/mailcheck.min.js
-[2022-08-31 18:28:34] [class-ss-fetch-urls-task.php:67] URL is not being excluded
-[2022-08-31 18:28:34] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\Users\user\AppData\Local\Temp/630fa8527aa99-YXDs89.tmp
-[2022-08-31 18:28:34] [class-ss-url-fetcher.php:94] Filesize: 4014 bytes
-[2022-08-31 18:28:34] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: application/javascript
-[2022-08-31 18:28:34] [class-ss-url-fetcher.php:192] New filename for static page: /wp-content/plugins/wpforms-lite/assets/lib/mailcheck.min.js
-[2022-08-31 18:28:34] [class-ss-url-fetcher.php:132] Renaming temp file from C:\Users\user\AppData\Local\Temp/630fa8527aa99-YXDs89.tmp to C:\xampp\htdocs\lodicoins\wp-content\plugins\simply-static/static-files/simply-static-1-1661970501/wp-content/plugins/wpforms-lite/assets/lib/mailcheck.min.js
-[2022-08-31 18:28:34] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
-[2022-08-31 18:28:34] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
-[2022-08-31 18:28:34] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
-[2022-08-31 18:28:34] [class-ss-fetch-urls-task.php:57] URL: https://localhost/lodicoins/wp-content/plugins/wpforms-lite/assets/lib/punycode.min.js
-[2022-08-31 18:28:34] [class-ss-fetch-urls-task.php:67] URL is not being excluded
-[2022-08-31 18:28:34] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\Users\user\AppData\Local\Temp/630fa85283a92-rXW7pn.tmp
-[2022-08-31 18:28:34] [class-ss-url-fetcher.php:94] Filesize: 1713 bytes
-[2022-08-31 18:28:34] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: application/javascript
-[2022-08-31 18:28:34] [class-ss-url-fetcher.php:192] New filename for static page: /wp-content/plugins/wpforms-lite/assets/lib/punycode.min.js
-[2022-08-31 18:28:34] [class-ss-url-fetcher.php:132] Renaming temp file from C:\Users\user\AppData\Local\Temp/630fa85283a92-rXW7pn.tmp to C:\xampp\htdocs\lodicoins\wp-content\plugins\simply-static/static-files/simply-static-1-1661970501/wp-content/plugins/wpforms-lite/assets/lib/punycode.min.js
-[2022-08-31 18:28:34] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
-[2022-08-31 18:28:34] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
-[2022-08-31 18:28:34] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
-[2022-08-31 18:28:34] [class-ss-fetch-urls-task.php:57] URL: https://localhost/lodicoins/wp-content/plugins/wpforms-lite/assets/js/utils.min.js
-[2022-08-31 18:28:34] [class-ss-fetch-urls-task.php:67] URL is not being excluded
-[2022-08-31 18:28:34] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\Users\user\AppData\Local\Temp/630fa852920bd-LLvku7.tmp
-[2022-08-31 18:28:34] [class-ss-url-fetcher.php:94] Filesize: 174 bytes
-[2022-08-31 18:28:34] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: application/javascript
-[2022-08-31 18:28:34] [class-ss-url-fetcher.php:192] New filename for static page: /wp-content/plugins/wpforms-lite/assets/js/utils.min.js
-[2022-08-31 18:28:34] [class-ss-url-fetcher.php:132] Renaming temp file from C:\Users\user\AppData\Local\Temp/630fa852920bd-LLvku7.tmp to C:\xampp\htdocs\lodicoins\wp-content\plugins\simply-static/static-files/simply-static-1-1661970501/wp-content/plugins/wpforms-lite/assets/js/utils.min.js
-[2022-08-31 18:28:34] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
-[2022-08-31 18:28:34] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
-[2022-08-31 18:28:34] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
-[2022-08-31 18:28:34] [class-ss-fetch-urls-task.php:57] URL: https://localhost/lodicoins/wp-content/plugins/wpforms-lite/assets/js/wpforms.min.js
-[2022-08-31 18:28:34] [class-ss-fetch-urls-task.php:67] URL is not being excluded
-[2022-08-31 18:28:34] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\Users\user\AppData\Local\Temp/630fa85299d8b-yOvlix.tmp
-[2022-08-31 18:28:34] [class-ss-url-fetcher.php:94] Filesize: 32356 bytes
-[2022-08-31 18:28:34] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: application/javascript
-[2022-08-31 18:28:34] [class-ss-url-fetcher.php:192] New filename for static page: /wp-content/plugins/wpforms-lite/assets/js/wpforms.min.js
-[2022-08-31 18:28:34] [class-ss-url-fetcher.php:132] Renaming temp file from C:\Users\user\AppData\Local\Temp/630fa85299d8b-yOvlix.tmp to C:\xampp\htdocs\lodicoins\wp-content\plugins\simply-static/static-files/simply-static-1-1661970501/wp-content/plugins/wpforms-lite/assets/js/wpforms.min.js
-[2022-08-31 18:28:34] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
-[2022-08-31 18:28:34] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
-[2022-08-31 18:28:34] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
-[2022-08-31 18:28:34] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 51 of 55 pages/files
-[2022-08-31 18:28:34] [class-ss-archive-creation-job.php:145] We're not done with the fetch_urls task yet
-[2022-08-31 18:28:34] [class-ss-archive-creation-job.php:105] Current task: fetch_urls
-[2022-08-31 18:28:34] [class-ss-archive-creation-job.php:121] Performing task: fetch_urls
-[2022-08-31 18:28:34] [class-ss-fetch-urls-task.php:54] Total pages: 55; Pages remaining: 0
-[2022-08-31 18:28:34] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 55 of 55 pages/files
-[2022-08-31 18:28:34] [class-ss-archive-creation-job.php:140] We've found our next task: create_zip_archive
-[2022-08-31 18:28:34] [class-ss-archive-creation-job.php:105] Current task: create_zip_archive
-[2022-08-31 18:28:34] [class-ss-archive-creation-job.php:121] Performing task: create_zip_archive
-[2022-08-31 18:28:34] [class-ss-create-zip-archive.php:60] Fetching list of files to include in zip
-[2022-08-31 18:28:34] [class-ss-create-zip-archive.php:69] Creating zip archive
-[2022-08-31 18:28:35] [class-ss-task.php:44] Status message: [create_zip_archive] ZIP archive created:  <a href="https://localhost/lodicoins/wp-content/plugins/simply-static/static-files/simply-static-1-1661970501.zip">Click here to download</a>
-[2022-08-31 18:28:35] [class-ss-archive-creation-job.php:140] We've found our next task: wrapup
-[2022-08-31 18:28:35] [class-ss-archive-creation-job.php:105] Current task: wrapup
-[2022-08-31 18:28:35] [class-ss-archive-creation-job.php:121] Performing task: wrapup
-[2022-08-31 18:28:35] [class-ss-wrapup-task.php:22] Deleting temporary files
-[2022-08-31 18:28:35] [class-ss-task.php:44] Status message: [wrapup] Wrapping up
-[2022-08-31 18:28:35] [class-ss-archive-creation-job.php:136] This task is done and there are no more tasks, time to complete the job
-[2022-08-31 18:28:35] [class-ss-archive-creation-job.php:159] Completing the job
-[2022-08-31 18:28:35] [class-ss-archive-creation-job.php:269] Status message: [done] Done! Finished in 00:00:14
+[2022-09-01 11:13:42] [class-ss-plugin.php:268] Received request to start generating a static archive
+[2022-09-01 11:13:42] [class-ss-archive-creation-job.php:61] Starting a job; no job is presently running
+[2022-09-01 11:13:42] [class-ss-archive-creation-job.php:62] Here's our task list: setup, fetch_urls, transfer_files_locally, wrapup
+[2022-09-01 11:13:42] [class-ss-archive-creation-job.php:76] Pushing first task to queue: setup
+[2022-09-01 11:13:45] [class-ss-archive-creation-job.php:105] Current task: setup
+[2022-09-01 11:13:45] [class-ss-archive-creation-job.php:121] Performing task: setup
+[2022-09-01 11:13:45] [class-ss-task.php:44] Status message: [setup] Setting up
+[2022-09-01 11:13:45] [class-ss-setup-task.php:32] Creating archive directory: C:\xampp\htdocs\lodicoins\wp-content\plugins\simply-static/static-files/simply-static-1-1662030822\
+[2022-09-01 11:13:45] [class-ss-setup-task.php:77] Adding origin URL to queue: https://localhost/lodicoins/
+[2022-09-01 11:13:45] [class-ss-archive-creation-job.php:140] We've found our next task: fetch_urls
+[2022-09-01 11:13:45] [class-ss-archive-creation-job.php:105] Current task: fetch_urls
+[2022-09-01 11:13:45] [class-ss-archive-creation-job.php:121] Performing task: fetch_urls
+[2022-09-01 11:13:45] [class-ss-fetch-urls-task.php:54] Total pages: 1; Pages remaining: 1
+[2022-09-01 11:13:45] [class-ss-fetch-urls-task.php:57] URL: https://localhost/lodicoins/
+[2022-09-01 11:13:45] [class-ss-fetch-urls-task.php:67] URL is not being excluded
+[2022-09-01 11:13:45] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\Users\user\AppData\Local\Temp/631093e95b909-GqK9kL.tmp
+[2022-09-01 11:13:48] [class-ss-url-fetcher.php:94] Filesize: 32420 bytes
+[2022-09-01 11:13:48] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2022-09-01 11:13:48] [class-ss-url-fetcher.php:192] New filename for static page: /index.html
+[2022-09-01 11:13:48] [class-ss-url-fetcher.php:132] Renaming temp file from C:\Users\user\AppData\Local\Temp/631093e95b909-GqK9kL.tmp to C:\xampp\htdocs\lodicoins\wp-content\plugins\simply-static/static-files/simply-static-1-1662030822/index.html
+[2022-09-01 11:13:48] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
+[2022-09-01 11:13:49] [class-ss-fetch-urls-task.php:133] Adding 27 URLs to the queue
+[2022-09-01 11:13:49] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
+[2022-09-01 11:13:49] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 0 of 1 pages/files
+[2022-09-01 11:13:49] [class-ss-archive-creation-job.php:145] We're not done with the fetch_urls task yet
+[2022-09-01 11:13:49] [class-ss-archive-creation-job.php:105] Current task: fetch_urls
+[2022-09-01 11:13:49] [class-ss-archive-creation-job.php:121] Performing task: fetch_urls
+[2022-09-01 11:13:49] [class-ss-fetch-urls-task.php:54] Total pages: 27; Pages remaining: 26
+[2022-09-01 11:13:49] [class-ss-fetch-urls-task.php:57] URL: https://localhost/lodicoins
+[2022-09-01 11:13:49] [class-ss-fetch-urls-task.php:67] URL is not being excluded
+[2022-09-01 11:13:49] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\Users\user\AppData\Local\Temp/631093ed7b1dd-705YQP.tmp
+[2022-09-01 11:13:49] [class-ss-url-fetcher.php:94] Filesize: 336 bytes
+[2022-09-01 11:13:49] [class-ss-url-fetcher.php:109] http_status_code: 301 | content_type: text/html; charset=iso-8859-1
+[2022-09-01 11:13:49] [class-ss-url-fetcher.php:135] We weren't able to establish a filename; deleting temp file
+[2022-09-01 11:13:49] [class-ss-fetch-urls-task.php:176] redirect_url: https://localhost/lodicoins/
+[2022-09-01 11:13:49] [class-ss-fetch-urls-task.php:185] This is a redirect to a trailing slashed version of the same page; adding new URL to the queue
+[2022-09-01 11:13:49] [class-ss-fetch-urls-task.php:57] URL: https://localhost/lodicoins/wp-content/uploads/2022/08/lodicoins_logo.png
+[2022-09-01 11:13:49] [class-ss-fetch-urls-task.php:67] URL is not being excluded
+[2022-09-01 11:13:49] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\Users\user\AppData\Local\Temp/631093ed8682b-rvtknq.tmp
+[2022-09-01 11:13:49] [class-ss-url-fetcher.php:94] Filesize: 26236 bytes
+[2022-09-01 11:13:49] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: image/png
+[2022-09-01 11:13:49] [class-ss-url-fetcher.php:192] New filename for static page: /wp-content/uploads/2022/08/lodicoins_logo.png
+[2022-09-01 11:13:49] [class-ss-url-fetcher.php:132] Renaming temp file from C:\Users\user\AppData\Local\Temp/631093ed8682b-rvtknq.tmp to C:\xampp\htdocs\lodicoins\wp-content\plugins\simply-static/static-files/simply-static-1-1662030822/wp-content/uploads/2022/08/lodicoins_logo.png
+[2022-09-01 11:13:49] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
+[2022-09-01 11:13:49] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
+[2022-09-01 11:13:49] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
+[2022-09-01 11:13:49] [class-ss-fetch-urls-task.php:57] URL: https://localhost/lodicoins/feed/
+[2022-09-01 11:13:49] [class-ss-fetch-urls-task.php:67] URL is not being excluded
+[2022-09-01 11:13:49] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\Users\user\AppData\Local\Temp/631093ed8f10b-rDaZhb.tmp
+[2022-09-01 11:13:49] [class-ss-url-fetcher.php:94] Filesize: 1310 bytes
+[2022-09-01 11:13:49] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: text/html
+[2022-09-01 11:13:49] [class-ss-url-fetcher.php:192] New filename for static page: /feed/index.html
+[2022-09-01 11:13:49] [class-ss-url-fetcher.php:132] Renaming temp file from C:\Users\user\AppData\Local\Temp/631093ed8f10b-rDaZhb.tmp to C:\xampp\htdocs\lodicoins\wp-content\plugins\simply-static/static-files/simply-static-1-1662030822/feed/index.html
+[2022-09-01 11:13:49] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
+[2022-09-01 11:13:49] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
+[2022-09-01 11:13:49] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
+[2022-09-01 11:13:49] [class-ss-fetch-urls-task.php:57] URL: https://localhost/lodicoins/comments/feed/
+[2022-09-01 11:13:49] [class-ss-fetch-urls-task.php:67] URL is not being excluded
+[2022-09-01 11:13:49] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\Users\user\AppData\Local\Temp/631093edab856-iaJ5k1.tmp
+[2022-09-01 11:13:49] [class-ss-url-fetcher.php:94] Filesize: 1382 bytes
+[2022-09-01 11:13:49] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: text/html
+[2022-09-01 11:13:49] [class-ss-url-fetcher.php:192] New filename for static page: /comments/feed/index.html
+[2022-09-01 11:13:49] [class-ss-url-fetcher.php:132] Renaming temp file from C:\Users\user\AppData\Local\Temp/631093edab856-iaJ5k1.tmp to C:\xampp\htdocs\lodicoins\wp-content\plugins\simply-static/static-files/simply-static-1-1662030822/comments/feed/index.html
+[2022-09-01 11:13:49] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
+[2022-09-01 11:13:49] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
+[2022-09-01 11:13:49] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
+[2022-09-01 11:13:49] [class-ss-fetch-urls-task.php:57] URL: https://localhost/lodicoins/wp-content/plugins/bb-plugin/fonts/fontawesome/5.15.4/webfonts/fa-brands-400.woff2
+[2022-09-01 11:13:49] [class-ss-fetch-urls-task.php:67] URL is not being excluded
+[2022-09-01 11:13:49] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\Users\user\AppData\Local\Temp/631093edc79b1-ks0iTa.tmp
+[2022-09-01 11:13:49] [class-ss-url-fetcher.php:94] Filesize: 76736 bytes
+[2022-09-01 11:13:49] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: font/woff2
+[2022-09-01 11:13:49] [class-ss-url-fetcher.php:192] New filename for static page: /wp-content/plugins/bb-plugin/fonts/fontawesome/5.15.4/webfonts/fa-brands-400.woff2
+[2022-09-01 11:13:49] [class-ss-url-fetcher.php:132] Renaming temp file from C:\Users\user\AppData\Local\Temp/631093edc79b1-ks0iTa.tmp to C:\xampp\htdocs\lodicoins\wp-content\plugins\simply-static/static-files/simply-static-1-1662030822/wp-content/plugins/bb-plugin/fonts/fontawesome/5.15.4/webfonts/fa-brands-400.woff2
+[2022-09-01 11:13:49] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
+[2022-09-01 11:13:49] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
+[2022-09-01 11:13:49] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
+[2022-09-01 11:13:49] [class-ss-fetch-urls-task.php:57] URL: https://localhost/lodicoins/wp-includes/css/dist/block-library/style.min.css
+[2022-09-01 11:13:49] [class-ss-fetch-urls-task.php:67] URL is not being excluded
+[2022-09-01 11:13:49] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\Users\user\AppData\Local\Temp/631093edf2466-tsLMEA.tmp
+[2022-09-01 11:13:50] [class-ss-url-fetcher.php:94] Filesize: 88932 bytes
+[2022-09-01 11:13:50] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: text/css
+[2022-09-01 11:13:50] [class-ss-url-fetcher.php:192] New filename for static page: /wp-includes/css/dist/block-library/style.min.css
+[2022-09-01 11:13:50] [class-ss-url-fetcher.php:132] Renaming temp file from C:\Users\user\AppData\Local\Temp/631093edf2466-tsLMEA.tmp to C:\xampp\htdocs\lodicoins\wp-content\plugins\simply-static/static-files/simply-static-1-1662030822/wp-includes/css/dist/block-library/style.min.css
+[2022-09-01 11:13:50] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
+[2022-09-01 11:13:50] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
+[2022-09-01 11:13:50] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
+[2022-09-01 11:13:50] [class-ss-fetch-urls-task.php:57] URL: https://localhost/lodicoins/wp-content/uploads/bb-plugin/cache/13-layout.css
+[2022-09-01 11:13:50] [class-ss-fetch-urls-task.php:67] URL is not being excluded
+[2022-09-01 11:13:50] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\Users\user\AppData\Local\Temp/631093ee1fe24-3ohkAY.tmp
+[2022-09-01 11:13:50] [class-ss-url-fetcher.php:94] Filesize: 45919 bytes
+[2022-09-01 11:13:50] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: text/css
+[2022-09-01 11:13:50] [class-ss-url-fetcher.php:192] New filename for static page: /wp-content/uploads/bb-plugin/cache/13-layout.css
+[2022-09-01 11:13:50] [class-ss-url-fetcher.php:132] Renaming temp file from C:\Users\user\AppData\Local\Temp/631093ee1fe24-3ohkAY.tmp to C:\xampp\htdocs\lodicoins\wp-content\plugins\simply-static/static-files/simply-static-1-1662030822/wp-content/uploads/bb-plugin/cache/13-layout.css
+[2022-09-01 11:13:50] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
+[2022-09-01 11:13:50] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
+[2022-09-01 11:13:50] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
+[2022-09-01 11:13:50] [class-ss-fetch-urls-task.php:57] URL: https://localhost/lodicoins/wp-content/plugins/bb-plugin/fonts/fontawesome/5.15.4/css/all.min.css
+[2022-09-01 11:13:50] [class-ss-fetch-urls-task.php:67] URL is not being excluded
+[2022-09-01 11:13:50] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\Users\user\AppData\Local\Temp/631093ee3bc16-ydy9qa.tmp
+[2022-09-01 11:13:50] [class-ss-url-fetcher.php:94] Filesize: 60868 bytes
+[2022-09-01 11:13:50] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: text/css
+[2022-09-01 11:13:50] [class-ss-url-fetcher.php:192] New filename for static page: /wp-content/plugins/bb-plugin/fonts/fontawesome/5.15.4/css/all.min.css
+[2022-09-01 11:13:50] [class-ss-url-fetcher.php:132] Renaming temp file from C:\Users\user\AppData\Local\Temp/631093ee3bc16-ydy9qa.tmp to C:\xampp\htdocs\lodicoins\wp-content\plugins\simply-static/static-files/simply-static-1-1662030822/wp-content/plugins/bb-plugin/fonts/fontawesome/5.15.4/css/all.min.css
+[2022-09-01 11:13:50] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
+[2022-09-01 11:13:50] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
+[2022-09-01 11:13:50] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
+[2022-09-01 11:13:50] [class-ss-fetch-urls-task.php:57] URL: https://localhost/lodicoins/wp-content/uploads/bb-plugin/cache/1ef95849a3371963b5c06e73c3e910ab-layout-bundle.css
+[2022-09-01 11:13:50] [class-ss-fetch-urls-task.php:67] URL is not being excluded
+[2022-09-01 11:13:50] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\Users\user\AppData\Local\Temp/631093ee51726-RDFTvt.tmp
+[2022-09-01 11:13:50] [class-ss-url-fetcher.php:94] Filesize: 91430 bytes
+[2022-09-01 11:13:50] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: text/css
+[2022-09-01 11:13:50] [class-ss-url-fetcher.php:192] New filename for static page: /wp-content/uploads/bb-plugin/cache/1ef95849a3371963b5c06e73c3e910ab-layout-bundle.css
+[2022-09-01 11:13:50] [class-ss-url-fetcher.php:132] Renaming temp file from C:\Users\user\AppData\Local\Temp/631093ee51726-RDFTvt.tmp to C:\xampp\htdocs\lodicoins\wp-content\plugins\simply-static/static-files/simply-static-1-1662030822/wp-content/uploads/bb-plugin/cache/1ef95849a3371963b5c06e73c3e910ab-layout-bundle.css
+[2022-09-01 11:13:50] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
+[2022-09-01 11:13:50] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
+[2022-09-01 11:13:50] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
+[2022-09-01 11:13:50] [class-ss-fetch-urls-task.php:57] URL: https://localhost/lodicoins/wp-content/plugins/bb-plugin/css/jquery.magnificpopup.min.css
+[2022-09-01 11:13:50] [class-ss-fetch-urls-task.php:67] URL is not being excluded
+[2022-09-01 11:13:50] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\Users\user\AppData\Local\Temp/631093ee65f5c-6EMhrZ.tmp
+[2022-09-01 11:13:50] [class-ss-url-fetcher.php:94] Filesize: 5788 bytes
+[2022-09-01 11:13:50] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: text/css
+[2022-09-01 11:13:50] [class-ss-url-fetcher.php:192] New filename for static page: /wp-content/plugins/bb-plugin/css/jquery.magnificpopup.min.css
+[2022-09-01 11:13:50] [class-ss-url-fetcher.php:132] Renaming temp file from C:\Users\user\AppData\Local\Temp/631093ee65f5c-6EMhrZ.tmp to C:\xampp\htdocs\lodicoins\wp-content\plugins\simply-static/static-files/simply-static-1-1662030822/wp-content/plugins/bb-plugin/css/jquery.magnificpopup.min.css
+[2022-09-01 11:13:50] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
+[2022-09-01 11:13:50] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
+[2022-09-01 11:13:50] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
+[2022-09-01 11:13:50] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 1 of 27 pages/files
+[2022-09-01 11:13:50] [class-ss-archive-creation-job.php:145] We're not done with the fetch_urls task yet
+[2022-09-01 11:13:50] [class-ss-archive-creation-job.php:105] Current task: fetch_urls
+[2022-09-01 11:13:50] [class-ss-archive-creation-job.php:121] Performing task: fetch_urls
+[2022-09-01 11:13:50] [class-ss-fetch-urls-task.php:54] Total pages: 27; Pages remaining: 16
+[2022-09-01 11:13:50] [class-ss-fetch-urls-task.php:57] URL: https://localhost/lodicoins/wp-content/themes/bb-theme/css/base.min.css
+[2022-09-01 11:13:50] [class-ss-fetch-urls-task.php:67] URL is not being excluded
+[2022-09-01 11:13:50] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\Users\user\AppData\Local\Temp/631093ee769d6-IsIS2U.tmp
+[2022-09-01 11:13:50] [class-ss-url-fetcher.php:94] Filesize: 48426 bytes
+[2022-09-01 11:13:50] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: text/css
+[2022-09-01 11:13:50] [class-ss-url-fetcher.php:192] New filename for static page: /wp-content/themes/bb-theme/css/base.min.css
+[2022-09-01 11:13:50] [class-ss-url-fetcher.php:132] Renaming temp file from C:\Users\user\AppData\Local\Temp/631093ee769d6-IsIS2U.tmp to C:\xampp\htdocs\lodicoins\wp-content\plugins\simply-static/static-files/simply-static-1-1662030822/wp-content/themes/bb-theme/css/base.min.css
+[2022-09-01 11:13:50] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
+[2022-09-01 11:13:50] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
+[2022-09-01 11:13:50] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
+[2022-09-01 11:13:50] [class-ss-fetch-urls-task.php:57] URL: https://localhost/lodicoins/wp-content/uploads/bb-theme/skin-630f6bea551ff.css
+[2022-09-01 11:13:50] [class-ss-fetch-urls-task.php:67] URL is not being excluded
+[2022-09-01 11:13:50] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\Users\user\AppData\Local\Temp/631093ee8f7a6-OvUv2b.tmp
+[2022-09-01 11:13:50] [class-ss-url-fetcher.php:94] Filesize: 50352 bytes
+[2022-09-01 11:13:50] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: text/css
+[2022-09-01 11:13:50] [class-ss-url-fetcher.php:192] New filename for static page: /wp-content/uploads/bb-theme/skin-630f6bea551ff.css
+[2022-09-01 11:13:50] [class-ss-url-fetcher.php:132] Renaming temp file from C:\Users\user\AppData\Local\Temp/631093ee8f7a6-OvUv2b.tmp to C:\xampp\htdocs\lodicoins\wp-content\plugins\simply-static/static-files/simply-static-1-1662030822/wp-content/uploads/bb-theme/skin-630f6bea551ff.css
+[2022-09-01 11:13:50] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
+[2022-09-01 11:13:50] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
+[2022-09-01 11:13:50] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
+[2022-09-01 11:13:50] [class-ss-fetch-urls-task.php:57] URL: https://localhost/lodicoins/wp-content/plugins/bbpowerpack/assets/css/animate.min.css
+[2022-09-01 11:13:50] [class-ss-fetch-urls-task.php:67] URL is not being excluded
+[2022-09-01 11:13:50] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\Users\user\AppData\Local\Temp/631093eea7c2f-QsJmUq.tmp
+[2022-09-01 11:13:50] [class-ss-url-fetcher.php:94] Filesize: 52789 bytes
+[2022-09-01 11:13:50] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: text/css
+[2022-09-01 11:13:50] [class-ss-url-fetcher.php:192] New filename for static page: /wp-content/plugins/bbpowerpack/assets/css/animate.min.css
+[2022-09-01 11:13:50] [class-ss-url-fetcher.php:132] Renaming temp file from C:\Users\user\AppData\Local\Temp/631093eea7c2f-QsJmUq.tmp to C:\xampp\htdocs\lodicoins\wp-content\plugins\simply-static/static-files/simply-static-1-1662030822/wp-content/plugins/bbpowerpack/assets/css/animate.min.css
+[2022-09-01 11:13:50] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
+[2022-09-01 11:13:50] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
+[2022-09-01 11:13:50] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
+[2022-09-01 11:13:50] [class-ss-fetch-urls-task.php:57] URL: https://localhost/lodicoins/wp-json/
+[2022-09-01 11:13:50] [class-ss-fetch-urls-task.php:67] URL is not being excluded
+[2022-09-01 11:13:50] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\Users\user\AppData\Local\Temp/631093eebf8d9-aBGW66.tmp
+[2022-09-01 11:13:50] [class-ss-url-fetcher.php:94] Filesize: 174321 bytes
+[2022-09-01 11:13:50] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: text/html
+[2022-09-01 11:13:50] [class-ss-url-fetcher.php:192] New filename for static page: /wp-json/index.html
+[2022-09-01 11:13:50] [class-ss-url-fetcher.php:132] Renaming temp file from C:\Users\user\AppData\Local\Temp/631093eebf8d9-aBGW66.tmp to C:\xampp\htdocs\lodicoins\wp-content\plugins\simply-static/static-files/simply-static-1-1662030822/wp-json/index.html
+[2022-09-01 11:13:50] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
+[2022-09-01 11:13:51] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
+[2022-09-01 11:13:51] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
+[2022-09-01 11:13:51] [class-ss-fetch-urls-task.php:57] URL: https://localhost/lodicoins/wp-json/wp/v2/pages/13
+[2022-09-01 11:13:51] [class-ss-fetch-urls-task.php:67] URL is not being excluded
+[2022-09-01 11:13:51] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\Users\user\AppData\Local\Temp/631093ef1cdc7-3hmW5t.tmp
+[2022-09-01 11:13:51] [class-ss-url-fetcher.php:94] Filesize: 359 bytes
+[2022-09-01 11:13:51] [class-ss-url-fetcher.php:109] http_status_code: 301 | content_type: text/html; charset=iso-8859-1
+[2022-09-01 11:13:51] [class-ss-url-fetcher.php:135] We weren't able to establish a filename; deleting temp file
+[2022-09-01 11:13:51] [class-ss-fetch-urls-task.php:176] redirect_url: https://localhost/lodicoins/wp-json/wp/v2/pages/13/
+[2022-09-01 11:13:51] [class-ss-fetch-urls-task.php:185] This is a redirect to a trailing slashed version of the same page; adding new URL to the queue
+[2022-09-01 11:13:51] [class-ss-fetch-urls-task.php:57] URL: https://localhost/lodicoins/xmlrpc.php
+[2022-09-01 11:13:51] [class-ss-fetch-urls-task.php:67] URL is not being excluded
+[2022-09-01 11:13:51] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\Users\user\AppData\Local\Temp/631093ef34585-y3H9Dl.tmp
+[2022-09-01 11:13:53] [class-ss-url-fetcher.php:94] Filesize: 42 bytes
+[2022-09-01 11:13:53] [class-ss-url-fetcher.php:109] http_status_code: 405 | content_type: text/plain;charset=UTF-8
+[2022-09-01 11:13:53] [class-ss-url-fetcher.php:135] We weren't able to establish a filename; deleting temp file
+[2022-09-01 11:13:53] [class-ss-fetch-urls-task.php:57] URL: https://localhost/lodicoins/wp-includes/wlwmanifest.xml
+[2022-09-01 11:13:53] [class-ss-fetch-urls-task.php:67] URL is not being excluded
+[2022-09-01 11:13:53] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\Users\user\AppData\Local\Temp/631093f18578e-WpZ8Dy.tmp
+[2022-09-01 11:13:53] [class-ss-url-fetcher.php:94] Filesize: 1045 bytes
+[2022-09-01 11:13:53] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: application/xml
+[2022-09-01 11:13:53] [class-ss-url-fetcher.php:192] New filename for static page: /wp-includes/wlwmanifest.xml
+[2022-09-01 11:13:53] [class-ss-url-fetcher.php:132] Renaming temp file from C:\Users\user\AppData\Local\Temp/631093f18578e-WpZ8Dy.tmp to C:\xampp\htdocs\lodicoins\wp-content\plugins\simply-static/static-files/simply-static-1-1662030822/wp-includes/wlwmanifest.xml
+[2022-09-01 11:13:53] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
+[2022-09-01 11:13:53] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
+[2022-09-01 11:13:53] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
+[2022-09-01 11:13:53] [class-ss-fetch-urls-task.php:57] URL: https://localhost/lodicoins/wp-json/oembed/1.0/embed
+[2022-09-01 11:13:53] [class-ss-fetch-urls-task.php:67] URL is not being excluded
+[2022-09-01 11:13:53] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\Users\user\AppData\Local\Temp/631093f1d167a-Wn7yB2.tmp
+[2022-09-01 11:13:55] [class-ss-url-fetcher.php:94] Filesize: 115 bytes
+[2022-09-01 11:13:55] [class-ss-url-fetcher.php:109] http_status_code: 400 | content_type: application/json; charset=UTF-8
+[2022-09-01 11:13:55] [class-ss-url-fetcher.php:135] We weren't able to establish a filename; deleting temp file
+[2022-09-01 11:13:55] [class-ss-fetch-urls-task.php:57] URL: https://localhost/lodicoins/wp-includes/js/jquery/jquery.min.js
+[2022-09-01 11:13:55] [class-ss-fetch-urls-task.php:67] URL is not being excluded
+[2022-09-01 11:13:55] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\Users\user\AppData\Local\Temp/631093f3e54a9-AvukOZ.tmp
+[2022-09-01 11:13:55] [class-ss-url-fetcher.php:94] Filesize: 89521 bytes
+[2022-09-01 11:13:55] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: application/javascript
+[2022-09-01 11:13:55] [class-ss-url-fetcher.php:192] New filename for static page: /wp-includes/js/jquery/jquery.min.js
+[2022-09-01 11:13:55] [class-ss-url-fetcher.php:132] Renaming temp file from C:\Users\user\AppData\Local\Temp/631093f3e54a9-AvukOZ.tmp to C:\xampp\htdocs\lodicoins\wp-content\plugins\simply-static/static-files/simply-static-1-1662030822/wp-includes/js/jquery/jquery.min.js
+[2022-09-01 11:13:55] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
+[2022-09-01 11:13:55] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
+[2022-09-01 11:13:55] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
+[2022-09-01 11:13:56] [class-ss-fetch-urls-task.php:57] URL: https://localhost/lodicoins/wp-includes/js/jquery/jquery-migrate.min.js
+[2022-09-01 11:13:56] [class-ss-fetch-urls-task.php:67] URL is not being excluded
+[2022-09-01 11:13:56] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\Users\user\AppData\Local\Temp/631093f411dcc-to601q.tmp
+[2022-09-01 11:13:56] [class-ss-url-fetcher.php:94] Filesize: 11224 bytes
+[2022-09-01 11:13:56] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: application/javascript
+[2022-09-01 11:13:56] [class-ss-url-fetcher.php:192] New filename for static page: /wp-includes/js/jquery/jquery-migrate.min.js
+[2022-09-01 11:13:56] [class-ss-url-fetcher.php:132] Renaming temp file from C:\Users\user\AppData\Local\Temp/631093f411dcc-to601q.tmp to C:\xampp\htdocs\lodicoins\wp-content\plugins\simply-static/static-files/simply-static-1-1662030822/wp-includes/js/jquery/jquery-migrate.min.js
+[2022-09-01 11:13:56] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
+[2022-09-01 11:13:56] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
+[2022-09-01 11:13:56] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
+[2022-09-01 11:13:56] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 11 of 27 pages/files
+[2022-09-01 11:13:56] [class-ss-archive-creation-job.php:145] We're not done with the fetch_urls task yet
+[2022-09-01 11:13:56] [class-ss-archive-creation-job.php:105] Current task: fetch_urls
+[2022-09-01 11:13:56] [class-ss-archive-creation-job.php:121] Performing task: fetch_urls
+[2022-09-01 11:13:56] [class-ss-fetch-urls-task.php:54] Total pages: 28; Pages remaining: 7
+[2022-09-01 11:13:56] [class-ss-fetch-urls-task.php:57] URL: https://localhost/lodicoins/wp-includes/js/imagesloaded.min.js
+[2022-09-01 11:13:56] [class-ss-fetch-urls-task.php:67] URL is not being excluded
+[2022-09-01 11:13:56] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\Users\user\AppData\Local\Temp/631093f421d4a-ztQMG6.tmp
+[2022-09-01 11:13:56] [class-ss-url-fetcher.php:94] Filesize: 5629 bytes
+[2022-09-01 11:13:56] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: application/javascript
+[2022-09-01 11:13:56] [class-ss-url-fetcher.php:192] New filename for static page: /wp-includes/js/imagesloaded.min.js
+[2022-09-01 11:13:56] [class-ss-url-fetcher.php:132] Renaming temp file from C:\Users\user\AppData\Local\Temp/631093f421d4a-ztQMG6.tmp to C:\xampp\htdocs\lodicoins\wp-content\plugins\simply-static/static-files/simply-static-1-1662030822/wp-includes/js/imagesloaded.min.js
+[2022-09-01 11:13:56] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
+[2022-09-01 11:13:56] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
+[2022-09-01 11:13:56] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
+[2022-09-01 11:13:56] [class-ss-fetch-urls-task.php:57] URL: https://localhost/lodicoins/wp-content/uploads/bb-plugin/cache/13-layout.js
+[2022-09-01 11:13:56] [class-ss-fetch-urls-task.php:67] URL is not being excluded
+[2022-09-01 11:13:56] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\Users\user\AppData\Local\Temp/631093f42ea23-UWVtpO.tmp
+[2022-09-01 11:13:56] [class-ss-url-fetcher.php:94] Filesize: 31518 bytes
+[2022-09-01 11:13:56] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: application/javascript
+[2022-09-01 11:13:56] [class-ss-url-fetcher.php:192] New filename for static page: /wp-content/uploads/bb-plugin/cache/13-layout.js
+[2022-09-01 11:13:56] [class-ss-url-fetcher.php:132] Renaming temp file from C:\Users\user\AppData\Local\Temp/631093f42ea23-UWVtpO.tmp to C:\xampp\htdocs\lodicoins\wp-content\plugins\simply-static/static-files/simply-static-1-1662030822/wp-content/uploads/bb-plugin/cache/13-layout.js
+[2022-09-01 11:13:56] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
+[2022-09-01 11:13:56] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
+[2022-09-01 11:13:56] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
+[2022-09-01 11:13:56] [class-ss-fetch-urls-task.php:57] URL: https://localhost/lodicoins/wp-content/plugins/bb-plugin/js/jquery.ba-throttle-debounce.min.js
+[2022-09-01 11:13:56] [class-ss-fetch-urls-task.php:67] URL is not being excluded
+[2022-09-01 11:13:56] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\Users\user\AppData\Local\Temp/631093f43d23f-UHnIqo.tmp
+[2022-09-01 11:13:56] [class-ss-url-fetcher.php:94] Filesize: 731 bytes
+[2022-09-01 11:13:56] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: application/javascript
+[2022-09-01 11:13:56] [class-ss-url-fetcher.php:192] New filename for static page: /wp-content/plugins/bb-plugin/js/jquery.ba-throttle-debounce.min.js
+[2022-09-01 11:13:56] [class-ss-url-fetcher.php:132] Renaming temp file from C:\Users\user\AppData\Local\Temp/631093f43d23f-UHnIqo.tmp to C:\xampp\htdocs\lodicoins\wp-content\plugins\simply-static/static-files/simply-static-1-1662030822/wp-content/plugins/bb-plugin/js/jquery.ba-throttle-debounce.min.js
+[2022-09-01 11:13:56] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
+[2022-09-01 11:13:56] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
+[2022-09-01 11:13:56] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
+[2022-09-01 11:13:56] [class-ss-fetch-urls-task.php:57] URL: https://localhost/lodicoins/wp-content/uploads/bb-plugin/cache/ca34f61a30ca0b9f9af6933c7ac850de-layout-bundle.js
+[2022-09-01 11:13:56] [class-ss-fetch-urls-task.php:67] URL is not being excluded
+[2022-09-01 11:13:56] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\Users\user\AppData\Local\Temp/631093f4465df-9Hp8e6.tmp
+[2022-09-01 11:13:56] [class-ss-url-fetcher.php:94] Filesize: 51805 bytes
+[2022-09-01 11:13:56] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: application/javascript
+[2022-09-01 11:13:56] [class-ss-url-fetcher.php:192] New filename for static page: /wp-content/uploads/bb-plugin/cache/ca34f61a30ca0b9f9af6933c7ac850de-layout-bundle.js
+[2022-09-01 11:13:56] [class-ss-url-fetcher.php:132] Renaming temp file from C:\Users\user\AppData\Local\Temp/631093f4465df-9Hp8e6.tmp to C:\xampp\htdocs\lodicoins\wp-content\plugins\simply-static/static-files/simply-static-1-1662030822/wp-content/uploads/bb-plugin/cache/ca34f61a30ca0b9f9af6933c7ac850de-layout-bundle.js
+[2022-09-01 11:13:56] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
+[2022-09-01 11:13:56] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
+[2022-09-01 11:13:56] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
+[2022-09-01 11:13:56] [class-ss-fetch-urls-task.php:57] URL: https://localhost/lodicoins/wp-content/plugins/bb-plugin/js/jquery.magnificpopup.min.js
+[2022-09-01 11:13:56] [class-ss-fetch-urls-task.php:67] URL is not being excluded
+[2022-09-01 11:13:56] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\Users\user\AppData\Local\Temp/631093f453070-mYtQnI.tmp
+[2022-09-01 11:13:56] [class-ss-url-fetcher.php:94] Filesize: 19875 bytes
+[2022-09-01 11:13:56] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: application/javascript
+[2022-09-01 11:13:56] [class-ss-url-fetcher.php:192] New filename for static page: /wp-content/plugins/bb-plugin/js/jquery.magnificpopup.min.js
+[2022-09-01 11:13:56] [class-ss-url-fetcher.php:132] Renaming temp file from C:\Users\user\AppData\Local\Temp/631093f453070-mYtQnI.tmp to C:\xampp\htdocs\lodicoins\wp-content\plugins\simply-static/static-files/simply-static-1-1662030822/wp-content/plugins/bb-plugin/js/jquery.magnificpopup.min.js
+[2022-09-01 11:13:56] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
+[2022-09-01 11:13:56] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
+[2022-09-01 11:13:56] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
+[2022-09-01 11:13:56] [class-ss-fetch-urls-task.php:57] URL: https://localhost/lodicoins/wp-content/themes/bb-theme/js/theme.min.js
+[2022-09-01 11:13:56] [class-ss-fetch-urls-task.php:67] URL is not being excluded
+[2022-09-01 11:13:56] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\Users\user\AppData\Local\Temp/631093f45f9b1-leQ45S.tmp
+[2022-09-01 11:13:56] [class-ss-url-fetcher.php:94] Filesize: 20712 bytes
+[2022-09-01 11:13:56] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: application/javascript
+[2022-09-01 11:13:56] [class-ss-url-fetcher.php:192] New filename for static page: /wp-content/themes/bb-theme/js/theme.min.js
+[2022-09-01 11:13:56] [class-ss-url-fetcher.php:132] Renaming temp file from C:\Users\user\AppData\Local\Temp/631093f45f9b1-leQ45S.tmp to C:\xampp\htdocs\lodicoins\wp-content\plugins\simply-static/static-files/simply-static-1-1662030822/wp-content/themes/bb-theme/js/theme.min.js
+[2022-09-01 11:13:56] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
+[2022-09-01 11:13:56] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
+[2022-09-01 11:13:56] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
+[2022-09-01 11:13:56] [class-ss-fetch-urls-task.php:57] URL: https://localhost/lodicoins/wp-json/wp/v2/pages/13/
+[2022-09-01 11:13:56] [class-ss-fetch-urls-task.php:67] URL is not being excluded
+[2022-09-01 11:13:56] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\Users\user\AppData\Local\Temp/631093f46bfae-TcNNk2.tmp
+[2022-09-01 11:13:56] [class-ss-url-fetcher.php:94] Filesize: 14202 bytes
+[2022-09-01 11:13:56] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: text/html
+[2022-09-01 11:13:56] [class-ss-url-fetcher.php:192] New filename for static page: /wp-json/wp/v2/pages/13/index.html
+[2022-09-01 11:13:56] [class-ss-url-fetcher.php:132] Renaming temp file from C:\Users\user\AppData\Local\Temp/631093f46bfae-TcNNk2.tmp to C:\xampp\htdocs\lodicoins\wp-content\plugins\simply-static/static-files/simply-static-1-1662030822/wp-json/wp/v2/pages/13/index.html
+[2022-09-01 11:13:56] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
+[2022-09-01 11:13:56] [class-ss-fetch-urls-task.php:133] Adding 1 URLs to the queue
+[2022-09-01 11:13:56] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
+[2022-09-01 11:13:56] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 21 of 28 pages/files
+[2022-09-01 11:13:56] [class-ss-archive-creation-job.php:145] We're not done with the fetch_urls task yet
+[2022-09-01 11:13:56] [class-ss-archive-creation-job.php:105] Current task: fetch_urls
+[2022-09-01 11:13:56] [class-ss-archive-creation-job.php:121] Performing task: fetch_urls
+[2022-09-01 11:13:56] [class-ss-fetch-urls-task.php:54] Total pages: 29; Pages remaining: 1
+[2022-09-01 11:13:56] [class-ss-fetch-urls-task.php:57] URL: https://localhost/lodicoins/wp-json/wp/v2/pages/13/\"\"
+[2022-09-01 11:13:56] [class-ss-fetch-urls-task.php:67] URL is not being excluded
+[2022-09-01 11:13:56] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\Users\user\AppData\Local\Temp/631093f483501-lxYJlm.tmp
+[2022-09-01 11:13:56] [class-ss-url-fetcher.php:94] Filesize: 299 bytes
+[2022-09-01 11:13:56] [class-ss-url-fetcher.php:109] http_status_code: 403 | content_type: text/html; charset=iso-8859-1
+[2022-09-01 11:13:56] [class-ss-url-fetcher.php:135] We weren't able to establish a filename; deleting temp file
+[2022-09-01 11:13:56] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 28 of 29 pages/files
+[2022-09-01 11:13:56] [class-ss-archive-creation-job.php:145] We're not done with the fetch_urls task yet
+[2022-09-01 11:13:56] [class-ss-archive-creation-job.php:105] Current task: fetch_urls
+[2022-09-01 11:13:56] [class-ss-archive-creation-job.php:121] Performing task: fetch_urls
+[2022-09-01 11:13:56] [class-ss-fetch-urls-task.php:54] Total pages: 29; Pages remaining: 0
+[2022-09-01 11:13:56] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 29 of 29 pages/files
+[2022-09-01 11:13:56] [class-ss-archive-creation-job.php:140] We've found our next task: transfer_files_locally
+[2022-09-01 11:13:56] [class-ss-archive-creation-job.php:105] Current task: transfer_files_locally
+[2022-09-01 11:13:56] [class-ss-archive-creation-job.php:121] Performing task: transfer_files_locally
+[2022-09-01 11:13:56] [class-ss-transfer-files-locally-task.php:73] Total pages: 24; Pages remaining: 24
+[2022-09-01 11:13:56] [class-ss-archive-creation-job.php:145] We're not done with the transfer_files_locally task yet
+[2022-09-01 11:13:56] [class-ss-archive-creation-job.php:105] Current task: transfer_files_locally
+[2022-09-01 11:13:56] [class-ss-archive-creation-job.php:121] Performing task: transfer_files_locally
+[2022-09-01 11:13:56] [class-ss-transfer-files-locally-task.php:73] Total pages: 24; Pages remaining: 0
+[2022-09-01 11:13:56] [class-ss-task.php:44] Status message: [transfer_files_locally] Copied 24 of 24 files
+[2022-09-01 11:13:56] [class-ss-task.php:44] Status message: [destination_url] Destination URL: <a href="http://loditech.github.io/lodicoins/" target="_blank">http://loditech.github.io/lodicoins/</a>
+[2022-09-01 11:13:56] [class-ss-archive-creation-job.php:140] We've found our next task: wrapup
+[2022-09-01 11:13:56] [class-ss-archive-creation-job.php:105] Current task: wrapup
+[2022-09-01 11:13:56] [class-ss-archive-creation-job.php:121] Performing task: wrapup
+[2022-09-01 11:13:56] [class-ss-wrapup-task.php:22] Deleting temporary files
+[2022-09-01 11:13:56] [class-ss-task.php:44] Status message: [wrapup] Wrapping up
+[2022-09-01 11:13:56] [class-ss-archive-creation-job.php:136] This task is done and there are no more tasks, time to complete the job
+[2022-09-01 11:13:56] [class-ss-archive-creation-job.php:159] Completing the job
+[2022-09-01 11:13:56] [class-ss-archive-creation-job.php:269] Status message: [done] Done! Finished in 00:00:14
